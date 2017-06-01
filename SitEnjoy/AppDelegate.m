@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SEMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+
+    //设置根控制器
+    UINavigationController *rootVC = [[UINavigationController alloc] initWithRootViewController:[[SEMainViewController alloc] init]];
+    
+    //设置透明
+    rootVC.navigationBar.shadowImage = [[UIImage alloc] init];
+    [rootVC.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    //去除 navigationBar 底部的细线
+    rootVC.navigationBar.shadowImage = [UIImage new];
+    
+    [UIApplication sharedApplication].statusBarHidden = YES;
+
+    self.window.rootViewController = rootVC;
+    
+    [self.window makeKeyWindow];
+    
     return YES;
 }
 

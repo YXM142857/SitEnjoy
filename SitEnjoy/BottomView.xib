@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="BottomView" id="iN0-l3-epB" customClass="BottomView">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nV3-vV-Iss">
+                    <rect key="frame" x="24" y="22" width="66" height="40"/>
+                    <state key="normal" image="home_btn_me_40x40_"/>
+                    <connections>
+                        <action selector="meBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="9Dv-wb-Cwa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoe-G2-xly">
+                    <rect key="frame" x="142" y="8" width="108" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="108" id="Pvv-v9-CtP"/>
+                    </constraints>
+                    <state key="normal" image="home_btn_meditate_54x54_"/>
+                    <connections>
+                        <action selector="metitationBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="M0x-4F-4ra"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8t-Ik-43E">
+                    <rect key="frame" x="304" y="22" width="40" height="40"/>
+                    <state key="normal" image="home_btn_timer_40x40_"/>
+                    <connections>
+                        <action selector="timerBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="G1X-kz-Gff"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="我" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQ0-pf-h6j">
+                    <rect key="frame" x="36" y="68" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="坐享" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izT-Sv-VlD">
+                    <rect key="frame" x="178.5" y="70" width="35" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="记时" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tsd-rr-ZNt">
+                    <rect key="frame" x="304" y="70" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eoe-G2-xly" firstAttribute="bottom" secondItem="nV3-vV-Iss" secondAttribute="bottom" id="CSp-bq-X6K"/>
+                <constraint firstItem="eoe-G2-xly" firstAttribute="leading" secondItem="nV3-vV-Iss" secondAttribute="trailing" constant="52" id="EIv-dj-LO7"/>
+                <constraint firstItem="eoe-G2-xly" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="142" id="HbM-4e-Rg6"/>
+                <constraint firstItem="eoe-G2-xly" firstAttribute="centerX" secondItem="izT-Sv-VlD" secondAttribute="centerX" id="dKX-Ou-f2p"/>
+                <constraint firstItem="nV3-vV-Iss" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="inW-aX-1z8"/>
+                <constraint firstItem="izT-Sv-VlD" firstAttribute="top" secondItem="eoe-G2-xly" secondAttribute="bottom" constant="8" symbolic="YES" id="mBQ-Uq-D3X"/>
+                <constraint firstItem="eoe-G2-xly" firstAttribute="bottom" secondItem="i8t-Ik-43E" secondAttribute="bottom" id="qmd-Uk-eGy"/>
+                <constraint firstItem="eoe-G2-xly" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="tkr-mJ-bZQ"/>
+                <constraint firstItem="i8t-Ik-43E" firstAttribute="leading" secondItem="eoe-G2-xly" secondAttribute="trailing" constant="54" id="whN-4a-A2N"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="meBtn" destination="nV3-vV-Iss" id="jmH-mi-Ixi"/>
+                <outlet property="metitationBtn" destination="eoe-G2-xly" id="71P-50-3cr"/>
+                <outlet property="timerBtn" destination="i8t-Ik-43E" id="XBe-XM-kSO"/>
+            </connections>
+            <point key="canvasLocation" x="40" y="71.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_btn_me_40x40_" width="40" height="40"/>
+        <image name="home_btn_meditate_54x54_" width="54" height="54"/>
+        <image name="home_btn_timer_40x40_" width="40" height="40"/>
+    </resources>
+</document>

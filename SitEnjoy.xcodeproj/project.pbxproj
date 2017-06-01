@@ -9,12 +9,40 @@
 /* Begin PBXBuildFile section */
 		2A3ECFA31ED98DBD00C130AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFA21ED98DBD00C130AF /* main.m */; };
 		2A3ECFA61ED98DBD00C130AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFA51ED98DBD00C130AF /* AppDelegate.m */; };
-		2A3ECFA91ED98DBD00C130AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFA81ED98DBD00C130AF /* ViewController.m */; };
-		2A3ECFAC1ED98DBD00C130AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3ECFAA1ED98DBD00C130AF /* Main.storyboard */; };
 		2A3ECFAE1ED98DBD00C130AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3ECFAD1ED98DBD00C130AF /* Assets.xcassets */; };
 		2A3ECFB11ED98DBD00C130AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3ECFAF1ED98DBD00C130AF /* LaunchScreen.storyboard */; };
 		2A3ECFBC1ED98DBD00C130AF /* SitEnjoyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFBB1ED98DBD00C130AF /* SitEnjoyTests.m */; };
 		2A3ECFC71ED98DBD00C130AF /* SitEnjoyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFC61ED98DBD00C130AF /* SitEnjoyUITests.m */; };
+		2AD96B791ED9947300D33D2B /* NSCalendar+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B6A1ED9947300D33D2B /* NSCalendar+XMGExtension.m */; };
+		2AD96B7B1ED9947300D33D2B /* NSString+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B6E1ED9947300D33D2B /* NSString+XMGExtension.m */; };
+		2AD96B7C1ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B701ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m */; };
+		2AD96B7D1ED9947300D33D2B /* UIImage+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B721ED9947300D33D2B /* UIImage+XMGExtension.m */; };
+		2AD96B7E1ED9947300D33D2B /* UIImageView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B741ED9947300D33D2B /* UIImageView+XMGExtension.m */; };
+		2AD96B7F1ED9947300D33D2B /* UITextField+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B761ED9947300D33D2B /* UITextField+XMGExtension.m */; };
+		2AD96B801ED9947300D33D2B /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B781ED9947300D33D2B /* UIView+XMGExtension.m */; };
+		2AD96B841EDE723200D33D2B /* SEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B821EDE723200D33D2B /* SEMainViewController.m */; };
+		2AD96B851EDE723200D33D2B /* SEMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD96B831EDE723200D33D2B /* SEMainViewController.xib */; };
+		2AD96B881EDE849200D33D2B /* SEMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B871EDE849200D33D2B /* SEMusicViewController.m */; };
+		2AD96B8E1EDEA44A00D33D2B /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B8B1EDEA44A00D33D2B /* XMGTabBar.m */; };
+		2AD96B8F1EDEA44A00D33D2B /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B8D1EDEA44A00D33D2B /* XMGTabBarController.m */; };
+		2AD96B921EDEA4BD00D33D2B /* SEMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B911EDEA4BD00D33D2B /* SEMeViewController.m */; };
+		2AD96B961EDEA61C00D33D2B /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B951EDEA61C00D33D2B /* BottomView.m */; };
+		2AD96B981EDEA64B00D33D2B /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD96B971EDEA64B00D33D2B /* BottomView.xib */; };
+		2AF8D2651EDEC91500CF45C8 /* SENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8D2641EDEC91500CF45C8 /* SENavigationController.m */; };
+		2AF8D2681EDECBCC00CF45C8 /* cloud.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D2671EDECBCC00CF45C8 /* cloud.gif */; };
+		2AF8D26A1EDECBD300CF45C8 /* Cloud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D2691EDECBD300CF45C8 /* Cloud.mp3 */; };
+		2AF8D26C1EDECBE700CF45C8 /* Nature.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D26B1EDECBE700CF45C8 /* Nature.gif */; };
+		2AF8D26E1EDECBF300CF45C8 /* Stream.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D26D1EDECBF300CF45C8 /* Stream.gif */; };
+		2AF8D2701EDECBF600CF45C8 /* Stream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D26F1EDECBF600CF45C8 /* Stream.mp3 */; };
+		2AF8D2721EDECC0000CF45C8 /* wood ring.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D2711EDECC0000CF45C8 /* wood ring.wav */; };
+		2AF8D2741EDECC0300CF45C8 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D2731EDECC0300CF45C8 /* wood.png */; };
+		2AF8D2761EDECC0C00CF45C8 /* Silent.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D2751EDECC0C00CF45C8 /* Silent.png */; };
+		2AF8D2781EDECC2500CF45C8 /* Nature 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D2771EDECC2500CF45C8 /* Nature 2.mp3 */; };
+		2AF8D27B1EDECC2F00CF45C8 /* metal ring.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D2791EDECC2F00CF45C8 /* metal ring.wav */; };
+		2AF8D27C1EDECC2F00CF45C8 /* Metal_bell3times.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D27A1EDECC2F00CF45C8 /* Metal_bell3times.mp3 */; };
+		2AF8D27F1EDED0DF00CF45C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D27D1EDED0DF00CF45C8 /* Main.storyboard */; };
+		2AF8D2821EDED15E00CF45C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8D2811EDED15D00CF45C8 /* ViewController.m */; };
+		9D2B5EAD206D745A3D536FFB /* libPods-SitEnjoy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E00FA2902E81BD89A25023A0 /* libPods-SitEnjoy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +67,6 @@
 		2A3ECFA21ED98DBD00C130AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A3ECFA41ED98DBD00C130AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A3ECFA51ED98DBD00C130AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A3ECFA71ED98DBD00C130AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A3ECFA81ED98DBD00C130AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2A3ECFAB1ED98DBD00C130AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A3ECFAD1ED98DBD00C130AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A3ECFB01ED98DBD00C130AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A3ECFB21ED98DBD00C130AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +76,53 @@
 		2A3ECFC21ED98DBD00C130AF /* SitEnjoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SitEnjoyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3ECFC61ED98DBD00C130AF /* SitEnjoyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SitEnjoyUITests.m; sourceTree = "<group>"; };
 		2A3ECFC81ED98DBD00C130AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD96B691ED9947300D33D2B /* NSCalendar+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSCalendar+XMGExtension.h"; path = "Category/NSCalendar+XMGExtension.h"; sourceTree = "<group>"; };
+		2AD96B6A1ED9947300D33D2B /* NSCalendar+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSCalendar+XMGExtension.m"; path = "Category/NSCalendar+XMGExtension.m"; sourceTree = "<group>"; };
+		2AD96B6D1ED9947300D33D2B /* NSString+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XMGExtension.h"; path = "Category/NSString+XMGExtension.h"; sourceTree = "<group>"; };
+		2AD96B6E1ED9947300D33D2B /* NSString+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XMGExtension.m"; path = "Category/NSString+XMGExtension.m"; sourceTree = "<group>"; };
+		2AD96B6F1ED9947300D33D2B /* UIBarButtonItem+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+XMGExtension.h"; path = "Category/UIBarButtonItem+XMGExtension.h"; sourceTree = "<group>"; };
+		2AD96B701ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+XMGExtension.m"; path = "Category/UIBarButtonItem+XMGExtension.m"; sourceTree = "<group>"; };
+		2AD96B711ED9947300D33D2B /* UIImage+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+XMGExtension.h"; path = "Category/UIImage+XMGExtension.h"; sourceTree = "<group>"; };
+		2AD96B721ED9947300D33D2B /* UIImage+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XMGExtension.m"; path = "Category/UIImage+XMGExtension.m"; sourceTree = "<group>"; };
+		2AD96B731ED9947300D33D2B /* UIImageView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+XMGExtension.h"; path = "Category/UIImageView+XMGExtension.h"; sourceTree = "<group>"; };
+		2AD96B741ED9947300D33D2B /* UIImageView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+XMGExtension.m"; path = "Category/UIImageView+XMGExtension.m"; sourceTree = "<group>"; };
+		2AD96B751ED9947300D33D2B /* UITextField+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+XMGExtension.h"; path = "Category/UITextField+XMGExtension.h"; sourceTree = "<group>"; };
+		2AD96B761ED9947300D33D2B /* UITextField+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+XMGExtension.m"; path = "Category/UITextField+XMGExtension.m"; sourceTree = "<group>"; };
+		2AD96B771ED9947300D33D2B /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+XMGExtension.h"; path = "Category/UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		2AD96B781ED9947300D33D2B /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+XMGExtension.m"; path = "Category/UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		2AD96B811EDE723200D33D2B /* SEMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEMainViewController.h; sourceTree = "<group>"; };
+		2AD96B821EDE723200D33D2B /* SEMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEMainViewController.m; sourceTree = "<group>"; };
+		2AD96B831EDE723200D33D2B /* SEMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEMainViewController.xib; sourceTree = "<group>"; };
+		2AD96B861EDE849200D33D2B /* SEMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEMusicViewController.h; sourceTree = "<group>"; };
+		2AD96B871EDE849200D33D2B /* SEMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEMusicViewController.m; sourceTree = "<group>"; };
+		2AD96B8A1EDEA44A00D33D2B /* XMGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMGTabBar.h; path = Controller/XMGTabBar.h; sourceTree = "<group>"; };
+		2AD96B8B1EDEA44A00D33D2B /* XMGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMGTabBar.m; path = Controller/XMGTabBar.m; sourceTree = "<group>"; };
+		2AD96B8C1EDEA44A00D33D2B /* XMGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMGTabBarController.h; path = Controller/XMGTabBarController.h; sourceTree = "<group>"; };
+		2AD96B8D1EDEA44A00D33D2B /* XMGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMGTabBarController.m; path = Controller/XMGTabBarController.m; sourceTree = "<group>"; };
+		2AD96B901EDEA4BD00D33D2B /* SEMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEMeViewController.h; sourceTree = "<group>"; };
+		2AD96B911EDEA4BD00D33D2B /* SEMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEMeViewController.m; sourceTree = "<group>"; };
+		2AD96B941EDEA61C00D33D2B /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		2AD96B951EDEA61C00D33D2B /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		2AD96B971EDEA64B00D33D2B /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
+		2AF8D2631EDEC91500CF45C8 /* SENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENavigationController.h; sourceTree = "<group>"; };
+		2AF8D2641EDEC91500CF45C8 /* SENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENavigationController.m; sourceTree = "<group>"; };
+		2AF8D2671EDECBCC00CF45C8 /* cloud.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cloud.gif; sourceTree = "<group>"; };
+		2AF8D2691EDECBD300CF45C8 /* Cloud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cloud.mp3; sourceTree = "<group>"; };
+		2AF8D26B1EDECBE700CF45C8 /* Nature.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Nature.gif; sourceTree = "<group>"; };
+		2AF8D26D1EDECBF300CF45C8 /* Stream.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Stream.gif; sourceTree = "<group>"; };
+		2AF8D26F1EDECBF600CF45C8 /* Stream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stream.mp3; sourceTree = "<group>"; };
+		2AF8D2711EDECC0000CF45C8 /* wood ring.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "wood ring.wav"; sourceTree = "<group>"; };
+		2AF8D2731EDECC0300CF45C8 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		2AF8D2751EDECC0C00CF45C8 /* Silent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Silent.png; sourceTree = "<group>"; };
+		2AF8D2771EDECC2500CF45C8 /* Nature 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nature 2.mp3"; sourceTree = "<group>"; };
+		2AF8D2791EDECC2F00CF45C8 /* metal ring.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "metal ring.wav"; sourceTree = "<group>"; };
+		2AF8D27A1EDECC2F00CF45C8 /* Metal_bell3times.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Metal_bell3times.mp3; sourceTree = "<group>"; };
+		2AF8D27E1EDED0DF00CF45C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AF8D2801EDED15D00CF45C8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AF8D2811EDED15D00CF45C8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C95498931D6D524D02F7734 /* Pods-SitEnjoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SitEnjoy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SitEnjoy/Pods-SitEnjoy.debug.xcconfig"; sourceTree = "<group>"; };
+		4ECE98101CC2D451E5D19B8A /* Pods-SitEnjoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SitEnjoy.release.xcconfig"; path = "Pods/Target Support Files/Pods-SitEnjoy/Pods-SitEnjoy.release.xcconfig"; sourceTree = "<group>"; };
+		E00FA2902E81BD89A25023A0 /* libPods-SitEnjoy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SitEnjoy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2B5EAD206D745A3D536FFB /* libPods-SitEnjoy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +151,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		155F97549586F30464366B91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C95498931D6D524D02F7734 /* Pods-SitEnjoy.debug.xcconfig */,
+				4ECE98101CC2D451E5D19B8A /* Pods-SitEnjoy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2A3ECF951ED98DBC00C130AF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +167,8 @@
 				2A3ECFBA1ED98DBD00C130AF /* SitEnjoyTests */,
 				2A3ECFC51ED98DBD00C130AF /* SitEnjoyUITests */,
 				2A3ECF9F1ED98DBC00C130AF /* Products */,
+				155F97549586F30464366B91 /* Pods */,
+				6D6B8D164822CC671F17BCB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +185,12 @@
 		2A3ECFA01ED98DBC00C130AF /* SitEnjoy */ = {
 			isa = PBXGroup;
 			children = (
+				2AD96B601ED992D700D33D2B /* Classes */,
 				2A3ECFA41ED98DBD00C130AF /* AppDelegate.h */,
 				2A3ECFA51ED98DBD00C130AF /* AppDelegate.m */,
-				2A3ECFA71ED98DBD00C130AF /* ViewController.h */,
-				2A3ECFA81ED98DBD00C130AF /* ViewController.m */,
-				2A3ECFAA1ED98DBD00C130AF /* Main.storyboard */,
+				2AF8D2801EDED15D00CF45C8 /* ViewController.h */,
+				2AF8D2811EDED15D00CF45C8 /* ViewController.m */,
+				2AF8D27D1EDED0DF00CF45C8 /* Main.storyboard */,
 				2A3ECFAD1ED98DBD00C130AF /* Assets.xcassets */,
 				2A3ECFAF1ED98DBD00C130AF /* LaunchScreen.storyboard */,
 				2A3ECFB21ED98DBD00C130AF /* Info.plist */,
@@ -117,6 +202,7 @@
 		2A3ECFA11ED98DBD00C130AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2AF8D2661EDECBC300CF45C8 /* gif */,
 				2A3ECFA21ED98DBD00C130AF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +226,133 @@
 			path = SitEnjoyUITests;
 			sourceTree = "<group>";
 		};
+		2AD96B601ED992D700D33D2B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2AD96B641ED9934E00D33D2B /* Dairy-日记 */,
+				2AD96B631ED9934000D33D2B /* Me-我 */,
+				2AD96B621ED9932500D33D2B /* Music-播放 */,
+				2AD96B611ED9930C00D33D2B /* Main-主页 */,
+				2AD96B651ED993BA00D33D2B /* Other-其他 */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2AD96B611ED9930C00D33D2B /* Main-主页 */ = {
+			isa = PBXGroup;
+			children = (
+				2AD96B931EDEA60200D33D2B /* View */,
+				2AD96B811EDE723200D33D2B /* SEMainViewController.h */,
+				2AD96B821EDE723200D33D2B /* SEMainViewController.m */,
+				2AD96B831EDE723200D33D2B /* SEMainViewController.xib */,
+			);
+			name = "Main-主页";
+			sourceTree = "<group>";
+		};
+		2AD96B621ED9932500D33D2B /* Music-播放 */ = {
+			isa = PBXGroup;
+			children = (
+				2AD96B861EDE849200D33D2B /* SEMusicViewController.h */,
+				2AD96B871EDE849200D33D2B /* SEMusicViewController.m */,
+			);
+			name = "Music-播放";
+			sourceTree = "<group>";
+		};
+		2AD96B631ED9934000D33D2B /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				2AD96B901EDEA4BD00D33D2B /* SEMeViewController.h */,
+				2AD96B911EDEA4BD00D33D2B /* SEMeViewController.m */,
+			);
+			name = "Me-我";
+			sourceTree = "<group>";
+		};
+		2AD96B641ED9934E00D33D2B /* Dairy-日记 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Dairy-日记";
+			sourceTree = "<group>";
+		};
+		2AD96B651ED993BA00D33D2B /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				2AD96B891EDEA41300D33D2B /* Controller */,
+				2AD96B681ED9945000D33D2B /* Category */,
+			);
+			name = "Other-其他";
+			sourceTree = "<group>";
+		};
+		2AD96B681ED9945000D33D2B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2AD96B691ED9947300D33D2B /* NSCalendar+XMGExtension.h */,
+				2AD96B6A1ED9947300D33D2B /* NSCalendar+XMGExtension.m */,
+				2AD96B6D1ED9947300D33D2B /* NSString+XMGExtension.h */,
+				2AD96B6E1ED9947300D33D2B /* NSString+XMGExtension.m */,
+				2AD96B6F1ED9947300D33D2B /* UIBarButtonItem+XMGExtension.h */,
+				2AD96B701ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m */,
+				2AD96B711ED9947300D33D2B /* UIImage+XMGExtension.h */,
+				2AD96B721ED9947300D33D2B /* UIImage+XMGExtension.m */,
+				2AD96B731ED9947300D33D2B /* UIImageView+XMGExtension.h */,
+				2AD96B741ED9947300D33D2B /* UIImageView+XMGExtension.m */,
+				2AD96B751ED9947300D33D2B /* UITextField+XMGExtension.h */,
+				2AD96B761ED9947300D33D2B /* UITextField+XMGExtension.m */,
+				2AD96B771ED9947300D33D2B /* UIView+XMGExtension.h */,
+				2AD96B781ED9947300D33D2B /* UIView+XMGExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		2AD96B891EDEA41300D33D2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AD96B8A1EDEA44A00D33D2B /* XMGTabBar.h */,
+				2AD96B8B1EDEA44A00D33D2B /* XMGTabBar.m */,
+				2AD96B8C1EDEA44A00D33D2B /* XMGTabBarController.h */,
+				2AD96B8D1EDEA44A00D33D2B /* XMGTabBarController.m */,
+				2AF8D2631EDEC91500CF45C8 /* SENavigationController.h */,
+				2AF8D2641EDEC91500CF45C8 /* SENavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2AD96B931EDEA60200D33D2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AD96B941EDEA61C00D33D2B /* BottomView.h */,
+				2AD96B951EDEA61C00D33D2B /* BottomView.m */,
+				2AD96B971EDEA64B00D33D2B /* BottomView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2AF8D2661EDECBC300CF45C8 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8D26B1EDECBE700CF45C8 /* Nature.gif */,
+				2AF8D26D1EDECBF300CF45C8 /* Stream.gif */,
+				2AF8D2791EDECC2F00CF45C8 /* metal ring.wav */,
+				2AF8D27A1EDECC2F00CF45C8 /* Metal_bell3times.mp3 */,
+				2AF8D2711EDECC0000CF45C8 /* wood ring.wav */,
+				2AF8D26F1EDECBF600CF45C8 /* Stream.mp3 */,
+				2AF8D2771EDECC2500CF45C8 /* Nature 2.mp3 */,
+				2AF8D2671EDECBCC00CF45C8 /* cloud.gif */,
+				2AF8D2731EDECC0300CF45C8 /* wood.png */,
+				2AF8D2691EDECBD300CF45C8 /* Cloud.mp3 */,
+				2AF8D2751EDECC0C00CF45C8 /* Silent.png */,
+			);
+			name = gif;
+			sourceTree = "<group>";
+		};
+		6D6B8D164822CC671F17BCB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E00FA2902E81BD89A25023A0 /* libPods-SitEnjoy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +360,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A3ECFCB1ED98DBD00C130AF /* Build configuration list for PBXNativeTarget "SitEnjoy" */;
 			buildPhases = (
+				24316BC2AC05D261ADD4E531 /* [CP] Check Pods Manifest.lock */,
 				2A3ECF9A1ED98DBC00C130AF /* Sources */,
 				2A3ECF9B1ED98DBC00C130AF /* Frameworks */,
 				2A3ECF9C1ED98DBC00C130AF /* Resources */,
+				C24C1DB70DA8BD71FFCBB651 /* [CP] Embed Pods Frameworks */,
+				D34EF57CDD31D0CFADBCFF7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +465,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF8D2761EDECC0C00CF45C8 /* Silent.png in Resources */,
+				2AF8D2681EDECBCC00CF45C8 /* cloud.gif in Resources */,
+				2AF8D2721EDECC0000CF45C8 /* wood ring.wav in Resources */,
 				2A3ECFB11ED98DBD00C130AF /* LaunchScreen.storyboard in Resources */,
+				2AF8D27B1EDECC2F00CF45C8 /* metal ring.wav in Resources */,
+				2AF8D2701EDECBF600CF45C8 /* Stream.mp3 in Resources */,
+				2AF8D2781EDECC2500CF45C8 /* Nature 2.mp3 in Resources */,
+				2AF8D26A1EDECBD300CF45C8 /* Cloud.mp3 in Resources */,
+				2AF8D27C1EDECC2F00CF45C8 /* Metal_bell3times.mp3 in Resources */,
+				2AD96B981EDEA64B00D33D2B /* BottomView.xib in Resources */,
+				2AD96B851EDE723200D33D2B /* SEMainViewController.xib in Resources */,
+				2AF8D27F1EDED0DF00CF45C8 /* Main.storyboard in Resources */,
+				2AF8D26C1EDECBE700CF45C8 /* Nature.gif in Resources */,
+				2AF8D2741EDECC0300CF45C8 /* wood.png in Resources */,
 				2A3ECFAE1ED98DBD00C130AF /* Assets.xcassets in Resources */,
-				2A3ECFAC1ED98DBD00C130AF /* Main.storyboard in Resources */,
+				2AF8D26E1EDECBF300CF45C8 /* Stream.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +500,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24316BC2AC05D261ADD4E531 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C24C1DB70DA8BD71FFCBB651 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SitEnjoy/Pods-SitEnjoy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D34EF57CDD31D0CFADBCFF7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SitEnjoy/Pods-SitEnjoy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A3ECF9A1ED98DBC00C130AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3ECFA91ED98DBD00C130AF /* ViewController.m in Sources */,
+				2AF8D2821EDED15E00CF45C8 /* ViewController.m in Sources */,
+				2AD96B841EDE723200D33D2B /* SEMainViewController.m in Sources */,
+				2AD96B881EDE849200D33D2B /* SEMusicViewController.m in Sources */,
 				2A3ECFA61ED98DBD00C130AF /* AppDelegate.m in Sources */,
+				2AD96B7B1ED9947300D33D2B /* NSString+XMGExtension.m in Sources */,
+				2AD96B7C1ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m in Sources */,
+				2AD96B8F1EDEA44A00D33D2B /* XMGTabBarController.m in Sources */,
+				2AD96B961EDEA61C00D33D2B /* BottomView.m in Sources */,
 				2A3ECFA31ED98DBD00C130AF /* main.m in Sources */,
+				2AD96B7E1ED9947300D33D2B /* UIImageView+XMGExtension.m in Sources */,
+				2AD96B7F1ED9947300D33D2B /* UITextField+XMGExtension.m in Sources */,
+				2AD96B8E1EDEA44A00D33D2B /* XMGTabBar.m in Sources */,
+				2AD96B801ED9947300D33D2B /* UIView+XMGExtension.m in Sources */,
+				2AF8D2651EDEC91500CF45C8 /* SENavigationController.m in Sources */,
+				2AD96B921EDEA4BD00D33D2B /* SEMeViewController.m in Sources */,
+				2AD96B7D1ED9947300D33D2B /* UIImage+XMGExtension.m in Sources */,
+				2AD96B791ED9947300D33D2B /* NSCalendar+XMGExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +605,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2A3ECFAA1ED98DBD00C130AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A3ECFAB1ED98DBD00C130AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2A3ECFAF1ED98DBD00C130AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2A3ECFB01ED98DBD00C130AF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2AF8D27D1EDED0DF00CF45C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AF8D27E1EDED0DF00CF45C8 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -425,6 +716,7 @@
 		};
 		2A3ECFCC1ED98DBD00C130AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C95498931D6D524D02F7734 /* Pods-SitEnjoy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RLW446F9SR;
@@ -437,6 +729,7 @@
 		};
 		2A3ECFCD1ED98DBD00C130AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECE98101CC2D451E5D19B8A /* Pods-SitEnjoy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RLW446F9SR;
@@ -516,6 +809,7 @@
 				2A3ECFCD1ED98DBD00C130AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A3ECFCE1ED98DBD00C130AF /* Build configuration list for PBXNativeTarget "SitEnjoyTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +818,7 @@
 				2A3ECFD01ED98DBD00C130AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A3ECFD11ED98DBD00C130AF /* Build configuration list for PBXNativeTarget "SitEnjoyUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +827,7 @@
 				2A3ECFD31ED98DBD00C130AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
