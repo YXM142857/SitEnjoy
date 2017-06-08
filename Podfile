@@ -22,5 +22,10 @@ pod 'SDCycleScrollView' , '~>1.64'
 pod 'TZImagePickerController'
 pod 'MLeaksFinder'
 pod 'FMDB'
+pod 'DOUAudioStreamer', '0.2.11'
+pod 'GVUserDefaults'
+pod 'Mantle', '1.5.5'
+pod 'AFNetworking', '~> 2.0'
+
 
 end

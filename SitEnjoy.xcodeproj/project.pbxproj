@@ -13,6 +13,33 @@
 		2A3ECFB11ED98DBD00C130AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3ECFAF1ED98DBD00C130AF /* LaunchScreen.storyboard */; };
 		2A3ECFBC1ED98DBD00C130AF /* SitEnjoyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFBB1ED98DBD00C130AF /* SitEnjoyTests.m */; };
 		2A3ECFC71ED98DBD00C130AF /* SitEnjoyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFC61ED98DBD00C130AF /* SitEnjoyUITests.m */; };
+		2A68DE9A1EE8331D00ECC730 /* 01 为什么用坐享这个词.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DE951EE8331D00ECC730 /* 01 为什么用坐享这个词.mp3 */; };
+		2A68DE9B1EE8331D00ECC730 /* 02 什么是元认知能力.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DE961EE8331D00ECC730 /* 02 什么是元认知能力.mp3 */; };
+		2A68DE9C1EE8331D00ECC730 /* 03 如何开始坐享.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DE971EE8331D00ECC730 /* 03 如何开始坐享.mp3 */; };
+		2A68DE9D1EE8331D00ECC730 /* 04 第一次坐享辅导.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DE981EE8331D00ECC730 /* 04 第一次坐享辅导.mp3 */; };
+		2A68DE9E1EE8331D00ECC730 /* 05 海声.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DE991EE8331D00ECC730 /* 05 海声.mp3 */; };
+		2A68DEA41EE8336700ECC730 /* 1770040300_2031329_l.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEA11EE8336700ECC730 /* 1770040300_2031329_l.mp3 */; };
+		2A68DEA51EE8336700ECC730 /* 1770059653_2050944_l.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEA21EE8336700ECC730 /* 1770059653_2050944_l.mp3 */; };
+		2A68DEA61EE8336700ECC730 /* 1771694697_4194836_l.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEA31EE8336700ECC730 /* 1771694697_4194836_l.mp3 */; };
+		2A68DEAE1EE833E400ECC730 /* BaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEA91EE833E400ECC730 /* BaseEntity.m */; };
+		2A68DEAF1EE833E400ECC730 /* MusicEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEAB1EE833E400ECC730 /* MusicEntity.m */; };
+		2A68DEB01EE833E400ECC730 /* MusicListEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEAD1EE833E400ECC730 /* MusicListEntity.m */; };
+		2A68DEBC1EE8340B00ECC730 /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEB31EE8340B00ECC730 /* Music.storyboard */; };
+		2A68DEBD1EE8340B00ECC730 /* MusicIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEB51EE8340B00ECC730 /* MusicIndicator.m */; };
+		2A68DEBE1EE8340B00ECC730 /* MusicSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEB71EE8340B00ECC730 /* MusicSlider.m */; };
+		2A68DEBF1EE8340B00ECC730 /* MusicList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEB91EE8340B00ECC730 /* MusicList.storyboard */; };
+		2A68DEC01EE8340B00ECC730 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEBB1EE8340B00ECC730 /* MusicListCell.m */; };
+		2A68DEC91EE8341900ECC730 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEC41EE8341900ECC730 /* MusicViewController.m */; };
+		2A68DECA1EE8341900ECC730 /* music_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEC61EE8341900ECC730 /* music_list.json */; };
+		2A68DECB1EE8341900ECC730 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEC81EE8341900ECC730 /* MusicListViewController.m */; };
+		2A68DED51EE8346200ECC730 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DECD1EE8346200ECC730 /* Track.m */; };
+		2A68DED61EE8346200ECC730 /* NAKPlaybackIndicatorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DED01EE8346200ECC730 /* NAKPlaybackIndicatorContentView.m */; };
+		2A68DED71EE8346200ECC730 /* NAKPlaybackIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DED21EE8346200ECC730 /* NAKPlaybackIndicatorView.m */; };
+		2A68DEDB1EE834A300ECC730 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEDA1EE834A300ECC730 /* GVUserDefaults+Properties.m */; };
+		2A68DEE11EE834BB00ECC730 /* BaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEDE1EE834BB00ECC730 /* BaseHelper.m */; };
+		2A68DEE21EE834BB00ECC730 /* MusicHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEE01EE834BB00ECC730 /* MusicHandler.m */; };
+		2A68DEE61EE834CD00ECC730 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEE41EE834CD00ECC730 /* UIView+Animations.m */; };
+		2A68DEEA1EE834D100ECC730 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEE91EE834D100ECC730 /* NSString+Additions.m */; };
 		2AD96B791ED9947300D33D2B /* NSCalendar+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B6A1ED9947300D33D2B /* NSCalendar+XMGExtension.m */; };
 		2AD96B7B1ED9947300D33D2B /* NSString+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B6E1ED9947300D33D2B /* NSString+XMGExtension.m */; };
 		2AD96B7C1ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B701ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m */; };
@@ -76,6 +103,51 @@
 		2A3ECFC21ED98DBD00C130AF /* SitEnjoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SitEnjoyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3ECFC61ED98DBD00C130AF /* SitEnjoyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SitEnjoyUITests.m; sourceTree = "<group>"; };
 		2A3ECFC81ED98DBD00C130AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A68DE951EE8331D00ECC730 /* 01 为什么用坐享这个词.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 为什么用坐享这个词.mp3"; sourceTree = "<group>"; };
+		2A68DE961EE8331D00ECC730 /* 02 什么是元认知能力.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 什么是元认知能力.mp3"; sourceTree = "<group>"; };
+		2A68DE971EE8331D00ECC730 /* 03 如何开始坐享.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 如何开始坐享.mp3"; sourceTree = "<group>"; };
+		2A68DE981EE8331D00ECC730 /* 04 第一次坐享辅导.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 第一次坐享辅导.mp3"; sourceTree = "<group>"; };
+		2A68DE991EE8331D00ECC730 /* 05 海声.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 海声.mp3"; sourceTree = "<group>"; };
+		2A68DEA11EE8336700ECC730 /* 1770040300_2031329_l.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1770040300_2031329_l.mp3; sourceTree = "<group>"; };
+		2A68DEA21EE8336700ECC730 /* 1770059653_2050944_l.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1770059653_2050944_l.mp3; sourceTree = "<group>"; };
+		2A68DEA31EE8336700ECC730 /* 1771694697_4194836_l.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1771694697_4194836_l.mp3; sourceTree = "<group>"; };
+		2A68DEA81EE833E400ECC730 /* BaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEntity.h; sourceTree = "<group>"; };
+		2A68DEA91EE833E400ECC730 /* BaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEntity.m; sourceTree = "<group>"; };
+		2A68DEAA1EE833E400ECC730 /* MusicEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicEntity.h; sourceTree = "<group>"; };
+		2A68DEAB1EE833E400ECC730 /* MusicEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicEntity.m; sourceTree = "<group>"; };
+		2A68DEAC1EE833E400ECC730 /* MusicListEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListEntity.h; sourceTree = "<group>"; };
+		2A68DEAD1EE833E400ECC730 /* MusicListEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListEntity.m; sourceTree = "<group>"; };
+		2A68DEB31EE8340B00ECC730 /* Music.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Music.storyboard; sourceTree = "<group>"; };
+		2A68DEB41EE8340B00ECC730 /* MusicIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicIndicator.h; sourceTree = "<group>"; };
+		2A68DEB51EE8340B00ECC730 /* MusicIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicIndicator.m; sourceTree = "<group>"; };
+		2A68DEB61EE8340B00ECC730 /* MusicSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicSlider.h; sourceTree = "<group>"; };
+		2A68DEB71EE8340B00ECC730 /* MusicSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicSlider.m; sourceTree = "<group>"; };
+		2A68DEB91EE8340B00ECC730 /* MusicList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MusicList.storyboard; sourceTree = "<group>"; };
+		2A68DEBA1EE8340B00ECC730 /* MusicListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListCell.h; sourceTree = "<group>"; };
+		2A68DEBB1EE8340B00ECC730 /* MusicListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListCell.m; sourceTree = "<group>"; };
+		2A68DEC31EE8341900ECC730 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		2A68DEC41EE8341900ECC730 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		2A68DEC61EE8341900ECC730 /* music_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = music_list.json; sourceTree = "<group>"; };
+		2A68DEC71EE8341900ECC730 /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		2A68DEC81EE8341900ECC730 /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
+		2A68DECC1EE8346200ECC730 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		2A68DECD1EE8346200ECC730 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		2A68DECF1EE8346200ECC730 /* NAKPlaybackIndicatorContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAKPlaybackIndicatorContentView.h; sourceTree = "<group>"; };
+		2A68DED01EE8346200ECC730 /* NAKPlaybackIndicatorContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAKPlaybackIndicatorContentView.m; sourceTree = "<group>"; };
+		2A68DED11EE8346200ECC730 /* NAKPlaybackIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAKPlaybackIndicatorView.h; sourceTree = "<group>"; };
+		2A68DED21EE8346200ECC730 /* NAKPlaybackIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAKPlaybackIndicatorView.m; sourceTree = "<group>"; };
+		2A68DED91EE834A300ECC730 /* GVUserDefaults+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GVUserDefaults+Properties.h"; sourceTree = "<group>"; };
+		2A68DEDA1EE834A300ECC730 /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
+		2A68DEDD1EE834BB00ECC730 /* BaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHelper.h; sourceTree = "<group>"; };
+		2A68DEDE1EE834BB00ECC730 /* BaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHelper.m; sourceTree = "<group>"; };
+		2A68DEDF1EE834BB00ECC730 /* MusicHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicHandler.h; sourceTree = "<group>"; };
+		2A68DEE01EE834BB00ECC730 /* MusicHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicHandler.m; sourceTree = "<group>"; };
+		2A68DEE31EE834CD00ECC730 /* UIView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIView+Animations.h"; sourceTree = "<group>"; };
+		2A68DEE41EE834CD00ECC730 /* UIView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animations.m"; sourceTree = "<group>"; };
+		2A68DEE81EE834D100ECC730 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		2A68DEE91EE834D100ECC730 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		2A68DEEB1EE834F100ECC730 /* UIConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIConstant.h; sourceTree = "<group>"; };
+		2A68DEED1EE835E800ECC730 /* Enesco-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enesco-Prefix.pch"; sourceTree = "<group>"; };
 		2AD96B691ED9947300D33D2B /* NSCalendar+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSCalendar+XMGExtension.h"; path = "Category/NSCalendar+XMGExtension.h"; sourceTree = "<group>"; };
 		2AD96B6A1ED9947300D33D2B /* NSCalendar+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSCalendar+XMGExtension.m"; path = "Category/NSCalendar+XMGExtension.m"; sourceTree = "<group>"; };
 		2AD96B6D1ED9947300D33D2B /* NSString+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XMGExtension.h"; path = "Category/NSString+XMGExtension.h"; sourceTree = "<group>"; };
@@ -185,6 +257,7 @@
 		2A3ECFA01ED98DBC00C130AF /* SitEnjoy */ = {
 			isa = PBXGroup;
 			children = (
+				2A68DE941EE8330800ECC730 /* Resources */,
 				2AD96B601ED992D700D33D2B /* Classes */,
 				2A3ECFA41ED98DBD00C130AF /* AppDelegate.h */,
 				2A3ECFA51ED98DBD00C130AF /* AppDelegate.m */,
@@ -204,6 +277,7 @@
 			children = (
 				2AF8D2661EDECBC300CF45C8 /* gif */,
 				2A3ECFA21ED98DBD00C130AF /* main.m */,
+				2A68DEED1EE835E800ECC730 /* Enesco-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -224,6 +298,171 @@
 				2A3ECFC81ED98DBD00C130AF /* Info.plist */,
 			);
 			path = SitEnjoyUITests;
+			sourceTree = "<group>";
+		};
+		2A68DE941EE8330800ECC730 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEA11EE8336700ECC730 /* 1770040300_2031329_l.mp3 */,
+				2A68DEA21EE8336700ECC730 /* 1770059653_2050944_l.mp3 */,
+				2A68DEA31EE8336700ECC730 /* 1771694697_4194836_l.mp3 */,
+				2A68DE951EE8331D00ECC730 /* 01 为什么用坐享这个词.mp3 */,
+				2A68DE961EE8331D00ECC730 /* 02 什么是元认知能力.mp3 */,
+				2A68DE971EE8331D00ECC730 /* 03 如何开始坐享.mp3 */,
+				2A68DE981EE8331D00ECC730 /* 04 第一次坐享辅导.mp3 */,
+				2A68DE991EE8331D00ECC730 /* 05 海声.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A68DEA71EE833E400ECC730 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEA81EE833E400ECC730 /* BaseEntity.h */,
+				2A68DEA91EE833E400ECC730 /* BaseEntity.m */,
+				2A68DEAA1EE833E400ECC730 /* MusicEntity.h */,
+				2A68DEAB1EE833E400ECC730 /* MusicEntity.m */,
+				2A68DEAC1EE833E400ECC730 /* MusicListEntity.h */,
+				2A68DEAD1EE833E400ECC730 /* MusicListEntity.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2A68DEB11EE8340B00ECC730 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEB21EE8340B00ECC730 /* Music */,
+				2A68DEB81EE8340B00ECC730 /* MusicList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A68DEB21EE8340B00ECC730 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEB31EE8340B00ECC730 /* Music.storyboard */,
+				2A68DEB41EE8340B00ECC730 /* MusicIndicator.h */,
+				2A68DEB51EE8340B00ECC730 /* MusicIndicator.m */,
+				2A68DEB61EE8340B00ECC730 /* MusicSlider.h */,
+				2A68DEB71EE8340B00ECC730 /* MusicSlider.m */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		2A68DEB81EE8340B00ECC730 /* MusicList */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEB91EE8340B00ECC730 /* MusicList.storyboard */,
+				2A68DEBA1EE8340B00ECC730 /* MusicListCell.h */,
+				2A68DEBB1EE8340B00ECC730 /* MusicListCell.m */,
+			);
+			path = MusicList;
+			sourceTree = "<group>";
+		};
+		2A68DEC11EE8341900ECC730 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEC21EE8341900ECC730 /* Music */,
+				2A68DEC51EE8341900ECC730 /* MusicList */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2A68DEC21EE8341900ECC730 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEC31EE8341900ECC730 /* MusicViewController.h */,
+				2A68DEC41EE8341900ECC730 /* MusicViewController.m */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		2A68DEC51EE8341900ECC730 /* MusicList */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEC61EE8341900ECC730 /* music_list.json */,
+				2A68DEC71EE8341900ECC730 /* MusicListViewController.h */,
+				2A68DEC81EE8341900ECC730 /* MusicListViewController.m */,
+			);
+			path = MusicList;
+			sourceTree = "<group>";
+		};
+		2A68DECE1EE8346200ECC730 /* DOUAudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DECC1EE8346200ECC730 /* Track.h */,
+				2A68DECD1EE8346200ECC730 /* Track.m */,
+			);
+			path = DOUAudioStreamer;
+			sourceTree = "<group>";
+		};
+		2A68DED31EE8346200ECC730 /* NAKPlaybackIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DECF1EE8346200ECC730 /* NAKPlaybackIndicatorContentView.h */,
+				2A68DED01EE8346200ECC730 /* NAKPlaybackIndicatorContentView.m */,
+				2A68DED11EE8346200ECC730 /* NAKPlaybackIndicatorView.h */,
+				2A68DED21EE8346200ECC730 /* NAKPlaybackIndicatorView.m */,
+			);
+			path = NAKPlaybackIndicatorView;
+			sourceTree = "<group>";
+		};
+		2A68DED41EE8346200ECC730 /* Thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DECE1EE8346200ECC730 /* DOUAudioStreamer */,
+				2A68DED31EE8346200ECC730 /* NAKPlaybackIndicatorView */,
+			);
+			name = Thirdparty;
+			path = "../../../学习资料/1219-音乐播放器:视频播放/播放器/ESTMusicPlayer-master/Enesco/Thirdparty";
+			sourceTree = "<group>";
+		};
+		2A68DED81EE834A300ECC730 /* GVUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DED91EE834A300ECC730 /* GVUserDefaults+Properties.h */,
+				2A68DEDA1EE834A300ECC730 /* GVUserDefaults+Properties.m */,
+			);
+			path = GVUserDefaults;
+			sourceTree = "<group>";
+		};
+		2A68DEDC1EE834BB00ECC730 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEDD1EE834BB00ECC730 /* BaseHelper.h */,
+				2A68DEDE1EE834BB00ECC730 /* BaseHelper.m */,
+				2A68DEDF1EE834BB00ECC730 /* MusicHandler.h */,
+				2A68DEE01EE834BB00ECC730 /* MusicHandler.m */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		2A68DEE51EE834CD00ECC730 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEE31EE834CD00ECC730 /* UIView+Animations.h */,
+				2A68DEE41EE834CD00ECC730 /* UIView+Animations.m */,
+			);
+			name = UIView;
+			path = "../../../学习资料/1219-音乐播放器:视频播放/播放器/ESTMusicPlayer-master/Enesco/Categories/UIView";
+			sourceTree = "<group>";
+		};
+		2A68DEE71EE834D100ECC730 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEE81EE834D100ECC730 /* NSString+Additions.h */,
+				2A68DEE91EE834D100ECC730 /* NSString+Additions.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		2A68DEEC1EE834F100ECC730 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				2A68DEEB1EE834F100ECC730 /* UIConstant.h */,
+			);
+			name = Macros;
+			path = "../../../学习资料/1219-音乐播放器:视频播放/播放器/ESTMusicPlayer-master/Enesco/Macros";
 			sourceTree = "<group>";
 		};
 		2AD96B601ED992D700D33D2B /* Classes */ = {
@@ -252,6 +491,9 @@
 		2AD96B621ED9932500D33D2B /* Music-播放 */ = {
 			isa = PBXGroup;
 			children = (
+				2A68DEC11EE8341900ECC730 /* Controllers */,
+				2A68DEB11EE8340B00ECC730 /* Views */,
+				2A68DEA71EE833E400ECC730 /* Entities */,
 				2AD96B861EDE849200D33D2B /* SEMusicViewController.h */,
 				2AD96B871EDE849200D33D2B /* SEMusicViewController.m */,
 			);
@@ -277,6 +519,9 @@
 		2AD96B651ED993BA00D33D2B /* Other-其他 */ = {
 			isa = PBXGroup;
 			children = (
+				2A68DEEC1EE834F100ECC730 /* Macros */,
+				2A68DEDC1EE834BB00ECC730 /* Handlers */,
+				2A68DED41EE8346200ECC730 /* Thirdparty */,
 				2AD96B891EDEA41300D33D2B /* Controller */,
 				2AD96B681ED9945000D33D2B /* Category */,
 			);
@@ -286,6 +531,9 @@
 		2AD96B681ED9945000D33D2B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2A68DEE71EE834D100ECC730 /* NSString */,
+				2A68DEE51EE834CD00ECC730 /* UIView */,
+				2A68DED81EE834A300ECC730 /* GVUserDefaults */,
 				2AD96B691ED9947300D33D2B /* NSCalendar+XMGExtension.h */,
 				2AD96B6A1ED9947300D33D2B /* NSCalendar+XMGExtension.m */,
 				2AD96B6D1ED9947300D33D2B /* NSString+XMGExtension.h */,
@@ -465,19 +713,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A68DEBC1EE8340B00ECC730 /* Music.storyboard in Resources */,
 				2AF8D2761EDECC0C00CF45C8 /* Silent.png in Resources */,
 				2AF8D2681EDECBCC00CF45C8 /* cloud.gif in Resources */,
+				2A68DEA41EE8336700ECC730 /* 1770040300_2031329_l.mp3 in Resources */,
+				2A68DE9A1EE8331D00ECC730 /* 01 为什么用坐享这个词.mp3 in Resources */,
+				2A68DE9E1EE8331D00ECC730 /* 05 海声.mp3 in Resources */,
 				2AF8D2721EDECC0000CF45C8 /* wood ring.wav in Resources */,
 				2A3ECFB11ED98DBD00C130AF /* LaunchScreen.storyboard in Resources */,
+				2A68DE9D1EE8331D00ECC730 /* 04 第一次坐享辅导.mp3 in Resources */,
 				2AF8D27B1EDECC2F00CF45C8 /* metal ring.wav in Resources */,
 				2AF8D2701EDECBF600CF45C8 /* Stream.mp3 in Resources */,
 				2AF8D2781EDECC2500CF45C8 /* Nature 2.mp3 in Resources */,
+				2A68DEA51EE8336700ECC730 /* 1770059653_2050944_l.mp3 in Resources */,
+				2A68DEBF1EE8340B00ECC730 /* MusicList.storyboard in Resources */,
 				2AF8D26A1EDECBD300CF45C8 /* Cloud.mp3 in Resources */,
 				2AF8D27C1EDECC2F00CF45C8 /* Metal_bell3times.mp3 in Resources */,
 				2AD96B981EDEA64B00D33D2B /* BottomView.xib in Resources */,
+				2A68DEA61EE8336700ECC730 /* 1771694697_4194836_l.mp3 in Resources */,
 				2AD96B851EDE723200D33D2B /* SEMainViewController.xib in Resources */,
+				2A68DE9C1EE8331D00ECC730 /* 03 如何开始坐享.mp3 in Resources */,
 				2AF8D27F1EDED0DF00CF45C8 /* Main.storyboard in Resources */,
 				2AF8D26C1EDECBE700CF45C8 /* Nature.gif in Resources */,
+				2A68DECA1EE8341900ECC730 /* music_list.json in Resources */,
+				2A68DE9B1EE8331D00ECC730 /* 02 什么是元认知能力.mp3 in Resources */,
 				2AF8D2741EDECC0300CF45C8 /* wood.png in Resources */,
 				2A3ECFAE1ED98DBD00C130AF /* Assets.xcassets in Resources */,
 				2AF8D26E1EDECBF300CF45C8 /* Stream.gif in Resources */,
@@ -553,21 +812,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A68DEDB1EE834A300ECC730 /* GVUserDefaults+Properties.m in Sources */,
+				2A68DEC91EE8341900ECC730 /* MusicViewController.m in Sources */,
 				2AF8D2821EDED15E00CF45C8 /* ViewController.m in Sources */,
+				2A68DED71EE8346200ECC730 /* NAKPlaybackIndicatorView.m in Sources */,
+				2A68DEE11EE834BB00ECC730 /* BaseHelper.m in Sources */,
+				2A68DEE61EE834CD00ECC730 /* UIView+Animations.m in Sources */,
+				2A68DEAE1EE833E400ECC730 /* BaseEntity.m in Sources */,
 				2AD96B841EDE723200D33D2B /* SEMainViewController.m in Sources */,
 				2AD96B881EDE849200D33D2B /* SEMusicViewController.m in Sources */,
 				2A3ECFA61ED98DBD00C130AF /* AppDelegate.m in Sources */,
 				2AD96B7B1ED9947300D33D2B /* NSString+XMGExtension.m in Sources */,
 				2AD96B7C1ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m in Sources */,
+				2A68DECB1EE8341900ECC730 /* MusicListViewController.m in Sources */,
+				2A68DED61EE8346200ECC730 /* NAKPlaybackIndicatorContentView.m in Sources */,
+				2A68DEEA1EE834D100ECC730 /* NSString+Additions.m in Sources */,
 				2AD96B8F1EDEA44A00D33D2B /* XMGTabBarController.m in Sources */,
 				2AD96B961EDEA61C00D33D2B /* BottomView.m in Sources */,
 				2A3ECFA31ED98DBD00C130AF /* main.m in Sources */,
+				2A68DEC01EE8340B00ECC730 /* MusicListCell.m in Sources */,
 				2AD96B7E1ED9947300D33D2B /* UIImageView+XMGExtension.m in Sources */,
 				2AD96B7F1ED9947300D33D2B /* UITextField+XMGExtension.m in Sources */,
 				2AD96B8E1EDEA44A00D33D2B /* XMGTabBar.m in Sources */,
+				2A68DEE21EE834BB00ECC730 /* MusicHandler.m in Sources */,
 				2AD96B801ED9947300D33D2B /* UIView+XMGExtension.m in Sources */,
+				2A68DEBE1EE8340B00ECC730 /* MusicSlider.m in Sources */,
+				2A68DEB01EE833E400ECC730 /* MusicListEntity.m in Sources */,
 				2AF8D2651EDEC91500CF45C8 /* SENavigationController.m in Sources */,
 				2AD96B921EDEA4BD00D33D2B /* SEMeViewController.m in Sources */,
+				2A68DED51EE8346200ECC730 /* Track.m in Sources */,
+				2A68DEAF1EE833E400ECC730 /* MusicEntity.m in Sources */,
+				2A68DEBD1EE8340B00ECC730 /* MusicIndicator.m in Sources */,
 				2AD96B7D1ED9947300D33D2B /* UIImage+XMGExtension.m in Sources */,
 				2AD96B791ED9947300D33D2B /* NSCalendar+XMGExtension.m in Sources */,
 			);

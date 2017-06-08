@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIConstant.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -24,6 +24,7 @@ PODS:
     - AFNetworking (~> 2.2)
     - Ono (~> 1.0)
   - DateTools (2.0.0)
+  - DOUAudioStreamer (0.2.11)
   - DTCoreText (1.6.20):
     - DTCoreText/Core (= 1.6.20)
     - DTFoundation/Core (~> 1.7.5)
@@ -47,7 +48,11 @@ PODS:
   - FMDB/standard (2.6.2)
   - GRMustache (7.3.2):
     - JRSwizzle (~> 1.0)
+  - GVUserDefaults (1.0.2)
   - JRSwizzle (1.0)
+  - Mantle (1.5.5):
+    - Mantle/extobjc (= 1.5.5)
+  - Mantle/extobjc (1.5.5)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
@@ -70,11 +75,15 @@ PODS:
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - AFNetworking (~> 2.0)
   - AFOnoResponseSerializer
   - DateTools
+  - DOUAudioStreamer (= 0.2.11)
   - DTCoreText
   - FMDB
   - GRMustache
+  - GVUserDefaults
+  - Mantle (= 1.5.5)
   - Masonry
   - MBProgressHUD
   - MJRefresh
@@ -93,12 +102,15 @@ SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   AFOnoResponseSerializer: c02c8bef1d6742ac68f33ecaed41826c9657bc33
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  DOUAudioStreamer: 8aefc3e80eb6c01ec89fa3c30743c660e8c55bae
   DTCoreText: 51904f2374af443e0d270d6fdc76035ab6f9ef8a
   DTFoundation: 26a164ef510877387906fb92bff524a792db4bf8
   FBRetainCycleDetector: f0c7b290bf48ae77f6ae060843ce34ae341781eb
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   GRMustache: ebe6104fd30a6d22c1f36af131e19e2dbf7cd292
+  GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
@@ -114,6 +126,6 @@ SPEC CHECKSUMS:
   UMengSocial: 48b67179c492a8cf7803fbb0438b8f55432e2fc1
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 74556cbb04a97bb749b0901ec4fb0450a66c8fd6
+PODFILE CHECKSUM: 1761f3aacffc41da1214b9e3355a49800a7b4275
 
 COCOAPODS: 1.2.1

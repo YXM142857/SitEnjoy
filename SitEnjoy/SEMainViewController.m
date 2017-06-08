@@ -10,6 +10,9 @@
 #import "BottomView.h"
 #import <YYKit.h>
 #import <SDCycleScrollView.h>
+#import "SEMusicViewController.h"
+#import "MusicListViewController.h"
+
 
 @interface SEMainViewController ()<BottomViewDelegate,SDCycleScrollViewDelegate>
 
@@ -25,6 +28,19 @@
     [super viewDidLoad];
 
     self.navigationItem.title = @"坐享其成";
+//    self.navigationItem.title.
+//    NSDictionary *textAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+//                                    [UIColor whiteColor],NSForegroundColorAttributeName,
+//                                    [UIColor whiteColor],NSBackgroundColorAttributeName,nil];
+//    
+//    self.navigationController.navigationBar.titleTextAttributes = textAttributes;
+
+    NSDictionary *textAtttibutes = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,[UIColor redColor],NSBackgroundColorAttributeName, nil];
+    self.navigationController.navigationBar.titleTextAttributes = textAtttibutes;
+
+    
+    //    self.title = @"Title of the Page";
+    
     [self addContentView];
     // Do any additional setup after loading the view from its nib.
 }
@@ -95,11 +111,26 @@
 
 - (void)meBtnClick {
     NSLog(@"点击了我");
+    
+    
 }
 
 - (void)metitationBtnClick {
     NSLog(@"点击冥想");
-}
+//    MusicListViewController *musicListVC = [[MusicListViewController alloc] init];
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:musicListVC];
+//    [self presentViewController:nav animated:YES
+//                     completion:nil];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MusicList" bundle:nil];
+    
+    MusicListViewController *musicListVC = [storyboard instantiateViewControllerWithIdentifier:@"musicList"];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:musicListVC];
+    
+    [self presentViewController:nav animated:YES completion:nil];
+    
+   }
 
 - (void)timerBtnClick {
     NSLog(@"点击了定时器");

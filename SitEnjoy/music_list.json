@@ -1,0 +1,85 @@
+{
+  "data": [
+      {
+      "id": 43,
+      "title": "Old Memory",
+      "artist": "三輪学",
+      "pic": "http://aufree.qiniudn.com/images/album/img20/89520/4280541424067346.jpg",
+      "music_url" : "http://aufree.qiniudn.com/1770059653_2050944_l.mp3",
+      "file_name" : "1770059653_2050944_l",
+      "content": "此曲旋律轻快, 美妙, 仿佛欲将人带入一个十分干净且祥和的小镇... "
+      },
+      {
+      "id": 2,
+      "title": "A Little Story",
+      "artist": "Valentin",
+      "pic": "http://aufree.qiniudn.com/images/album/img28/65928/4263201298258620.jpg",
+      "music_url" : "http://aufree.qiniudn.com/1770040300_2031329_l.mp3",
+      "file_name" : "1770040300_2031329_l",
+      "content": "整首歌曲曲调轻松欢快, 这几天一直循环播放~"
+      },
+      {
+      "id": 111,
+      "title": "letter song",
+      "artist": "ヲタみん",
+      "pic": "http://aufree.qiniudn.com/images/album/img75/87975/6615037721361503772.jpg",
+      "music_url" : "http://aufree.qiniudn.com/1771694697_4194836_l.mp3",
+      "file_name" : "1771694697_4194836_l",
+      "content": "致十年后的自己，人生能有几个十年"
+      },
+      {
+       "id": 112,
+       "title": "李笑来-为什么用坐享这个词",
+       "artist": "坐享其成",
+       "pic": "http://aufree.qiniudn.com/images/album/img75/87975/6615037721361503772.jpg",
+       "music_url" : "http://aufree.qiniudn.com/1771694697_4194836_l.mp3",
+       "file_name" : "01 为什么用坐享这个词",
+       "content": "致十年后的自己，人生能有几个十年"
+       },
+       {
+       "id": 113,
+       "title": "02 什么是元认知能力",
+       "artist": "ヲタみん",
+       "pic": "http://aufree.qiniudn.com/images/album/img75/87975/6615037721361503772.jpg",
+       "music_url" : "http://aufree.qiniudn.com/1771694697_4194836_l.mp3",
+       "file_name" : "02 什么是元认知能力",
+       "content": "致十年后的自己，人生能有几个十年"
+       },
+       {
+       "id": 114,
+       "title": "03 如何开始坐享",
+       "artist": "开始吧",
+       "pic": "http://aufree.qiniudn.com/images/album/img75/87975/6615037721361503772.jpg",
+       "music_url" : "http://aufree.qiniudn.com/1771694697_4194836_l.mp3",
+       "file_name" : "03 如何开始坐享",
+       "content": "致十年后的自己，人生能有几个十年"
+       },
+       {
+       "id": 115,
+       "title": "04 第一次坐享辅导",
+       "artist": "第一次yb",
+       "pic": "http://aufree.qiniudn.com/images/album/img75/87975/6615037721361503772.jpg",
+       "music_url" : "http://aufree.qiniudn.com/1771694697_4194836_l.mp3",
+       "file_name" : "04 第一次坐享辅导",
+       "content": "致十年后的自己，人生能有几个十年"
+       },
+       {
+       "id": 115,
+       "title": "05 海声",
+       "artist": "坐享背景声",
+       "pic": "http://aufree.qiniudn.com/images/album/img75/87975/6615037721361503772.jpg",
+       "music_url" : "http://aufree.qiniudn.com/1771694697_4194836_l.mp3",
+       "file_name" : "05 海声",
+       "content": "致十年后的自己，人生能有几个十年"
+       },
+       {
+       "id": 116,
+       "title": "ask-questions-in-smart-way-read-by-john",
+       "artist": "如何提问",
+       "pic": "http://aufree.qiniudn.com/images/album/img75/87975/6615037721361503772.jpg",
+       "music_url" : "http://aufree.qiniudn.com/1771694697_4194836_l.mp3",
+       "file_name" : "ask-questions-in-smart-way-read-by-john",
+       "content": "致十年后的自己，人生能有几个十年"
+       },
+]
+}
