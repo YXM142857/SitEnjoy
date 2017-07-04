@@ -7,6 +7,7 @@
 //
 
 #import "BottomView.h"
+#import "UIConstant.h"
 
 @interface BottomView ()
 
@@ -40,6 +41,15 @@
     }
 }
 
+-(void)awakeFromNib {
+    
+    
+    [super awakeFromNib];
+    
+    _meBtn.titleLabel.font = [UIFont fontWithName:SEFontKaitiRegular size:17];
+    _metitationBtn.titleLabel.font = [UIFont fontWithName:SEFontKaitiRegular size:17];
+    _timerBtn.titleLabel.font = [UIFont fontWithName:SEFontKaitiRegular size:17];
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.

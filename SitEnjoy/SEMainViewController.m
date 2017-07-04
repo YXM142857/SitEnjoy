@@ -12,7 +12,9 @@
 #import <SDCycleScrollView.h>
 #import "SEMusicViewController.h"
 #import "MusicListViewController.h"
+#import "SEDiaryListViewController.h"
 
+#import "UIConstant.h"
 
 @interface SEMainViewController ()<BottomViewDelegate,SDCycleScrollViewDelegate>
 
@@ -43,6 +45,20 @@
     
     [self addContentView];
     // Do any additional setup after loading the view from its nib.
+    
+    
+    
+    for (NSString *fontfamilyname in [UIFont familyNames]) {
+        NSLog(@"family:''%@", fontfamilyname);
+        for (NSString *fontname in [UIFont fontNamesForFamilyName:fontfamilyname]) {
+            NSLog(@"\tfont:''%@",fontname);
+            
+        }
+        
+        NSLog(@"-----------");
+    }
+    
+    
 }
 
 - (void)addContentView {
@@ -55,7 +71,7 @@
     NSMutableArray *picArr = [[NSMutableArray alloc] init];
     
     [picArr addObject:[UIImage imageNamed:@"Stream.gif"]];
-    [picArr addObject:[UIImage imageNamed:@"Cloud.gif"]];
+    [picArr addObject:[UIImage imageNamed:@"cloud.gif"]];
     [picArr addObject:[UIImage imageNamed:@"Nature.gif"]];
 
     // 状态栏(statusbar)
@@ -74,9 +90,18 @@
     [self.view addSubview:cycleScrollView];
     [self.view addSubview:self.bottomView];
     
+    UILabel *lab = [[UILabel alloc] initWithFrame:CGRectMake(50, 100, kScreenWidth, 50)];
+    lab.text = @"我是新字体";
+    lab.textColor = [UIColor redColor];
+    lab.font = [UIFont fontWithName:@"DFWaWaSC-W5" size:17];
+    
+    [self.view addSubview:lab];
+    
     //状态栏
     
 
+    
+    
 }
 
 
@@ -93,8 +118,14 @@
 {
     [super viewWillDisappear:animated];
     //隐藏=YES,显示=NO; Animation:动画效果
-    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
+//    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
+    
 }
+
+- (BOOL)prefersStatusBarHidden  {
+    return YES;
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -110,7 +141,17 @@
 #pragma mark - BottomViewDelegate
 
 - (void)meBtnClick {
+    
+    
     NSLog(@"点击了我");
+    // 日记列表。
+    
+    
+    SEDiaryListViewController *diaryListVc = [[SEDiaryListViewController alloc] init];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:diaryListVc];
+    
+    [self presentViewController:nav animated:YES completion:nil];
     
     
 }

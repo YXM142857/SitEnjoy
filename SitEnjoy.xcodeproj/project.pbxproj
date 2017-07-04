@@ -7,12 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A3ECFA31ED98DBD00C130AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFA21ED98DBD00C130AF /* main.m */; };
-		2A3ECFA61ED98DBD00C130AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFA51ED98DBD00C130AF /* AppDelegate.m */; };
+		2A2A572A1F0631EA00CB4C69 /* DiaryListModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A55F6E31F0502EE00F68D01 /* DiaryListModel.h */; };
+		2A2A572B1F0631EA00CB4C69 /* DiaryListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55F6E41F0502EE00F68D01 /* DiaryListModel.m */; };
+		2A2A572C1F0631EA00CB4C69 /* SEDiaryListTableViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AF77BA11F03C44800FF873C /* SEDiaryListTableViewCell.h */; };
+		2A2A572D1F0631EA00CB4C69 /* SEDiaryListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF77BA21F03C44800FF873C /* SEDiaryListTableViewCell.m */; };
+		2A2A572E1F0631EA00CB4C69 /* SEDiaryListTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2AF77BA31F03C44800FF873C /* SEDiaryListTableViewCell.xib */; };
+		2A2A572F1F0631EA00CB4C69 /* SEDiaryListHeaderCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A55F6D81F04EFD100F68D01 /* SEDiaryListHeaderCell.h */; };
+		2A2A57301F0631EA00CB4C69 /* SEDiaryListHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A55F6DD1F04F3D700F68D01 /* SEDiaryListHeader.h */; };
+		2A2A57311F0631EA00CB4C69 /* SEDiaryListHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55F6DE1F04F3D700F68D01 /* SEDiaryListHeader.m */; };
+		2A2A57321F0631EA00CB4C69 /* SEDiaryListHeader.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2A55F6E01F04F3EF00F68D01 /* SEDiaryListHeader.xib */; };
+		2A2A57331F0631EA00CB4C69 /* SEDiaryListHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55F6D91F04EFD100F68D01 /* SEDiaryListHeaderCell.m */; };
+		2A2A57341F0631EA00CB4C69 /* SEDiaryListHeaderCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2A55F6DA1F04EFD100F68D01 /* SEDiaryListHeaderCell.xib */; };
+		2A2A57351F0631EA00CB4C69 /* SEDiaryListViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AF77B9D1F03BEDD00FF873C /* SEDiaryListViewController.h */; };
+		2A2A57361F0631EA00CB4C69 /* SEDiaryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF77B9E1F03BEDD00FF873C /* SEDiaryListViewController.m */; };
+		2A2A57371F0631EA00CB4C69 /* SEWriteDiaryViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A55F6E61F05117200F68D01 /* SEWriteDiaryViewController.h */; };
+		2A2A57381F0631EA00CB4C69 /* SEWriteDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A55F6E71F05117300F68D01 /* SEWriteDiaryViewController.m */; };
+		2A2A57391F0631EA00CB4C69 /* SEWriteDiaryViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2A55F6E81F05117300F68D01 /* SEWriteDiaryViewController.xib */; };
+		2A2A573A1F0631EA00CB4C69 /* SEMeViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B901EDEA4BD00D33D2B /* SEMeViewController.h */; };
+		2A2A573B1F0631EA00CB4C69 /* SEMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B911EDEA4BD00D33D2B /* SEMeViewController.m */; };
+		2A2A573C1F0631EA00CB4C69 /* MusicViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEC31EE8341900ECC730 /* MusicViewController.h */; };
+		2A2A573D1F0631EA00CB4C69 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEC41EE8341900ECC730 /* MusicViewController.m */; };
+		2A2A573F1F0631EA00CB4C69 /* MusicListViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEC71EE8341900ECC730 /* MusicListViewController.h */; };
+		2A2A57401F0631EA00CB4C69 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEC81EE8341900ECC730 /* MusicListViewController.m */; };
+		2A2A57421F0631EA00CB4C69 /* MusicIndicator.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEB41EE8340B00ECC730 /* MusicIndicator.h */; };
+		2A2A57431F0631EA00CB4C69 /* MusicIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEB51EE8340B00ECC730 /* MusicIndicator.m */; };
+		2A2A57441F0631EA00CB4C69 /* MusicSlider.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEB61EE8340B00ECC730 /* MusicSlider.h */; };
+		2A2A57451F0631EA00CB4C69 /* MusicSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEB71EE8340B00ECC730 /* MusicSlider.m */; };
+		2A2A57471F0631EA00CB4C69 /* MusicListCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEBA1EE8340B00ECC730 /* MusicListCell.h */; };
+		2A2A57481F0631EA00CB4C69 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEBB1EE8340B00ECC730 /* MusicListCell.m */; };
+		2A2A57491F0631EA00CB4C69 /* BaseEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEA81EE833E400ECC730 /* BaseEntity.h */; };
+		2A2A574A1F0631EA00CB4C69 /* BaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEA91EE833E400ECC730 /* BaseEntity.m */; };
+		2A2A574B1F0631EA00CB4C69 /* MusicEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEAA1EE833E400ECC730 /* MusicEntity.h */; };
+		2A2A574C1F0631EA00CB4C69 /* MusicEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEAB1EE833E400ECC730 /* MusicEntity.m */; };
+		2A2A574D1F0631EA00CB4C69 /* MusicListEntity.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEAC1EE833E400ECC730 /* MusicListEntity.h */; };
+		2A2A574E1F0631EA00CB4C69 /* MusicListEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEAD1EE833E400ECC730 /* MusicListEntity.m */; };
+		2A2A574F1F0631EA00CB4C69 /* SEMusicViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B861EDE849200D33D2B /* SEMusicViewController.h */; };
+		2A2A57501F0631EA00CB4C69 /* SEMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B871EDE849200D33D2B /* SEMusicViewController.m */; };
+		2A2A57511F0631EA00CB4C69 /* BottomView.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B941EDEA61C00D33D2B /* BottomView.h */; };
+		2A2A57521F0631EA00CB4C69 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B951EDEA61C00D33D2B /* BottomView.m */; };
+		2A2A57531F0631EA00CB4C69 /* BottomView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B971EDEA64B00D33D2B /* BottomView.xib */; };
+		2A2A57541F0631EA00CB4C69 /* SEMainViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B811EDE723200D33D2B /* SEMainViewController.h */; };
+		2A2A57551F0631EA00CB4C69 /* SEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B821EDE723200D33D2B /* SEMainViewController.m */; };
+		2A2A57561F0631EA00CB4C69 /* SEMainViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B831EDE723200D33D2B /* SEMainViewController.xib */; };
+		2A2A57571F0631EA00CB4C69 /* UIConstant.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEEB1EE834F100ECC730 /* UIConstant.h */; };
+		2A2A57581F0631EA00CB4C69 /* BaseHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEDD1EE834BB00ECC730 /* BaseHelper.h */; };
+		2A2A57591F0631EA00CB4C69 /* BaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEDE1EE834BB00ECC730 /* BaseHelper.m */; };
+		2A2A575A1F0631EA00CB4C69 /* MusicHandler.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEDF1EE834BB00ECC730 /* MusicHandler.h */; };
+		2A2A575B1F0631EA00CB4C69 /* MusicHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEE01EE834BB00ECC730 /* MusicHandler.m */; };
+		2A2A575C1F0631EA00CB4C69 /* Track.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DECC1EE8346200ECC730 /* Track.h */; };
+		2A2A575D1F0631EA00CB4C69 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DECD1EE8346200ECC730 /* Track.m */; };
+		2A2A575E1F0631EA00CB4C69 /* NAKPlaybackIndicatorContentView.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DECF1EE8346200ECC730 /* NAKPlaybackIndicatorContentView.h */; };
+		2A2A575F1F0631EA00CB4C69 /* NAKPlaybackIndicatorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DED01EE8346200ECC730 /* NAKPlaybackIndicatorContentView.m */; };
+		2A2A57601F0631EA00CB4C69 /* NAKPlaybackIndicatorView.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DED11EE8346200ECC730 /* NAKPlaybackIndicatorView.h */; };
+		2A2A57611F0631EA00CB4C69 /* NAKPlaybackIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DED21EE8346200ECC730 /* NAKPlaybackIndicatorView.m */; };
+		2A2A57621F0631EA00CB4C69 /* XMGTabBar.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B8A1EDEA44A00D33D2B /* XMGTabBar.h */; };
+		2A2A57631F0631EA00CB4C69 /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B8B1EDEA44A00D33D2B /* XMGTabBar.m */; };
+		2A2A57641F0631EA00CB4C69 /* XMGTabBarController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B8C1EDEA44A00D33D2B /* XMGTabBarController.h */; };
+		2A2A57651F0631EA00CB4C69 /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B8D1EDEA44A00D33D2B /* XMGTabBarController.m */; };
+		2A2A57661F0631EA00CB4C69 /* SENavigationController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8D2631EDEC91500CF45C8 /* SENavigationController.h */; };
+		2A2A57671F0631EA00CB4C69 /* SENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8D2641EDEC91500CF45C8 /* SENavigationController.m */; };
+		2A2A57681F0631EA00CB4C69 /* NSString+Additions.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEE81EE834D100ECC730 /* NSString+Additions.h */; };
+		2A2A57691F0631EA00CB4C69 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEE91EE834D100ECC730 /* NSString+Additions.m */; };
+		2A2A576A1F0631EA00CB4C69 /* UIView+Animations.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEE31EE834CD00ECC730 /* UIView+Animations.h */; };
+		2A2A576B1F0631EA00CB4C69 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEE41EE834CD00ECC730 /* UIView+Animations.m */; };
+		2A2A576C1F0631EA00CB4C69 /* GVUserDefaults+Properties.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DED91EE834A300ECC730 /* GVUserDefaults+Properties.h */; };
+		2A2A576D1F0631EA00CB4C69 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEDA1EE834A300ECC730 /* GVUserDefaults+Properties.m */; };
+		2A2A576E1F0631EA00CB4C69 /* NSCalendar+XMGExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B691ED9947300D33D2B /* NSCalendar+XMGExtension.h */; };
+		2A2A576F1F0631EA00CB4C69 /* NSCalendar+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B6A1ED9947300D33D2B /* NSCalendar+XMGExtension.m */; };
+		2A2A57701F0631EA00CB4C69 /* NSString+XMGExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B6D1ED9947300D33D2B /* NSString+XMGExtension.h */; };
+		2A2A57711F0631EA00CB4C69 /* NSString+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B6E1ED9947300D33D2B /* NSString+XMGExtension.m */; };
+		2A2A57721F0631EA00CB4C69 /* UIBarButtonItem+XMGExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B6F1ED9947300D33D2B /* UIBarButtonItem+XMGExtension.h */; };
+		2A2A57731F0631EA00CB4C69 /* UIBarButtonItem+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B701ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m */; };
+		2A2A57741F0631EA00CB4C69 /* UIImage+XMGExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B711ED9947300D33D2B /* UIImage+XMGExtension.h */; };
+		2A2A57751F0631EA00CB4C69 /* UIImage+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B721ED9947300D33D2B /* UIImage+XMGExtension.m */; };
+		2A2A57761F0631EA00CB4C69 /* UIImageView+XMGExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B731ED9947300D33D2B /* UIImageView+XMGExtension.h */; };
+		2A2A57771F0631EA00CB4C69 /* UIImageView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B741ED9947300D33D2B /* UIImageView+XMGExtension.m */; };
+		2A2A57781F0631EA00CB4C69 /* UITextField+XMGExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B751ED9947300D33D2B /* UITextField+XMGExtension.h */; };
+		2A2A57791F0631EA00CB4C69 /* UITextField+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B761ED9947300D33D2B /* UITextField+XMGExtension.m */; };
+		2A2A577A1F0631EA00CB4C69 /* UIView+XMGExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B771ED9947300D33D2B /* UIView+XMGExtension.h */; };
+		2A2A577B1F0631EA00CB4C69 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B781ED9947300D33D2B /* UIView+XMGExtension.m */; };
+		2A2A577C1F0631EA00CB4C69 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFA41ED98DBD00C130AF /* AppDelegate.h */; };
+		2A2A577D1F0631EA00CB4C69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFA51ED98DBD00C130AF /* AppDelegate.m */; };
+		2A2A577E1F0631EA00CB4C69 /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8D2801EDED15D00CF45C8 /* ViewController.h */; };
+		2A2A577F1F0631EA00CB4C69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8D2811EDED15D00CF45C8 /* ViewController.m */; };
+		2A2A578D1F0631EA00CB4C69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFA21ED98DBD00C130AF /* main.m */; };
+		2A2A578E1F0631EA00CB4C69 /* Enesco-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEED1EE835E800ECC730 /* Enesco-Prefix.pch */; };
 		2A3ECFAE1ED98DBD00C130AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3ECFAD1ED98DBD00C130AF /* Assets.xcassets */; };
 		2A3ECFB11ED98DBD00C130AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3ECFAF1ED98DBD00C130AF /* LaunchScreen.storyboard */; };
 		2A3ECFBC1ED98DBD00C130AF /* SitEnjoyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFBB1ED98DBD00C130AF /* SitEnjoyTests.m */; };
 		2A3ECFC71ED98DBD00C130AF /* SitEnjoyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3ECFC61ED98DBD00C130AF /* SitEnjoyUITests.m */; };
+		2A5050131F04A3E700596200 /* Kaiti-SC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5050111F04A0A600596200 /* Kaiti-SC-Bold.ttf */; };
+		2A5050141F04A3E700596200 /* Kaiti-SC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5050121F04A0A600596200 /* Kaiti-SC-Regular.ttf */; };
+		2A5050161F04DAF100596200 /* lantinghei.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A5050151F04DA8E00596200 /* lantinghei.ttf */; };
+		2A55F6DC1F04EFD100F68D01 /* SEDiaryListHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A55F6DA1F04EFD100F68D01 /* SEDiaryListHeaderCell.xib */; };
+		2A55F6E11F04F3EF00F68D01 /* SEDiaryListHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A55F6E01F04F3EF00F68D01 /* SEDiaryListHeader.xib */; };
+		2A55F6EA1F05117300F68D01 /* SEWriteDiaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A55F6E81F05117300F68D01 /* SEWriteDiaryViewController.xib */; };
 		2A68DE9A1EE8331D00ECC730 /* 01 为什么用坐享这个词.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DE951EE8331D00ECC730 /* 01 为什么用坐享这个词.mp3 */; };
 		2A68DE9B1EE8331D00ECC730 /* 02 什么是元认知能力.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DE961EE8331D00ECC730 /* 02 什么是元认知能力.mp3 */; };
 		2A68DE9C1EE8331D00ECC730 /* 03 如何开始坐享.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DE971EE8331D00ECC730 /* 03 如何开始坐享.mp3 */; };
@@ -21,41 +110,12 @@
 		2A68DEA41EE8336700ECC730 /* 1770040300_2031329_l.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEA11EE8336700ECC730 /* 1770040300_2031329_l.mp3 */; };
 		2A68DEA51EE8336700ECC730 /* 1770059653_2050944_l.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEA21EE8336700ECC730 /* 1770059653_2050944_l.mp3 */; };
 		2A68DEA61EE8336700ECC730 /* 1771694697_4194836_l.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEA31EE8336700ECC730 /* 1771694697_4194836_l.mp3 */; };
-		2A68DEAE1EE833E400ECC730 /* BaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEA91EE833E400ECC730 /* BaseEntity.m */; };
-		2A68DEAF1EE833E400ECC730 /* MusicEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEAB1EE833E400ECC730 /* MusicEntity.m */; };
-		2A68DEB01EE833E400ECC730 /* MusicListEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEAD1EE833E400ECC730 /* MusicListEntity.m */; };
 		2A68DEBC1EE8340B00ECC730 /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEB31EE8340B00ECC730 /* Music.storyboard */; };
-		2A68DEBD1EE8340B00ECC730 /* MusicIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEB51EE8340B00ECC730 /* MusicIndicator.m */; };
-		2A68DEBE1EE8340B00ECC730 /* MusicSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEB71EE8340B00ECC730 /* MusicSlider.m */; };
 		2A68DEBF1EE8340B00ECC730 /* MusicList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEB91EE8340B00ECC730 /* MusicList.storyboard */; };
-		2A68DEC01EE8340B00ECC730 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEBB1EE8340B00ECC730 /* MusicListCell.m */; };
-		2A68DEC91EE8341900ECC730 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEC41EE8341900ECC730 /* MusicViewController.m */; };
 		2A68DECA1EE8341900ECC730 /* music_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A68DEC61EE8341900ECC730 /* music_list.json */; };
-		2A68DECB1EE8341900ECC730 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEC81EE8341900ECC730 /* MusicListViewController.m */; };
-		2A68DED51EE8346200ECC730 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DECD1EE8346200ECC730 /* Track.m */; };
-		2A68DED61EE8346200ECC730 /* NAKPlaybackIndicatorContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DED01EE8346200ECC730 /* NAKPlaybackIndicatorContentView.m */; };
-		2A68DED71EE8346200ECC730 /* NAKPlaybackIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DED21EE8346200ECC730 /* NAKPlaybackIndicatorView.m */; };
-		2A68DEDB1EE834A300ECC730 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEDA1EE834A300ECC730 /* GVUserDefaults+Properties.m */; };
-		2A68DEE11EE834BB00ECC730 /* BaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEDE1EE834BB00ECC730 /* BaseHelper.m */; };
-		2A68DEE21EE834BB00ECC730 /* MusicHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEE01EE834BB00ECC730 /* MusicHandler.m */; };
-		2A68DEE61EE834CD00ECC730 /* UIView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEE41EE834CD00ECC730 /* UIView+Animations.m */; };
-		2A68DEEA1EE834D100ECC730 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68DEE91EE834D100ECC730 /* NSString+Additions.m */; };
-		2AD96B791ED9947300D33D2B /* NSCalendar+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B6A1ED9947300D33D2B /* NSCalendar+XMGExtension.m */; };
-		2AD96B7B1ED9947300D33D2B /* NSString+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B6E1ED9947300D33D2B /* NSString+XMGExtension.m */; };
-		2AD96B7C1ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B701ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m */; };
-		2AD96B7D1ED9947300D33D2B /* UIImage+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B721ED9947300D33D2B /* UIImage+XMGExtension.m */; };
-		2AD96B7E1ED9947300D33D2B /* UIImageView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B741ED9947300D33D2B /* UIImageView+XMGExtension.m */; };
-		2AD96B7F1ED9947300D33D2B /* UITextField+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B761ED9947300D33D2B /* UITextField+XMGExtension.m */; };
-		2AD96B801ED9947300D33D2B /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B781ED9947300D33D2B /* UIView+XMGExtension.m */; };
-		2AD96B841EDE723200D33D2B /* SEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B821EDE723200D33D2B /* SEMainViewController.m */; };
 		2AD96B851EDE723200D33D2B /* SEMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD96B831EDE723200D33D2B /* SEMainViewController.xib */; };
-		2AD96B881EDE849200D33D2B /* SEMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B871EDE849200D33D2B /* SEMusicViewController.m */; };
-		2AD96B8E1EDEA44A00D33D2B /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B8B1EDEA44A00D33D2B /* XMGTabBar.m */; };
-		2AD96B8F1EDEA44A00D33D2B /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B8D1EDEA44A00D33D2B /* XMGTabBarController.m */; };
-		2AD96B921EDEA4BD00D33D2B /* SEMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B911EDEA4BD00D33D2B /* SEMeViewController.m */; };
-		2AD96B961EDEA61C00D33D2B /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD96B951EDEA61C00D33D2B /* BottomView.m */; };
 		2AD96B981EDEA64B00D33D2B /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AD96B971EDEA64B00D33D2B /* BottomView.xib */; };
-		2AF8D2651EDEC91500CF45C8 /* SENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8D2641EDEC91500CF45C8 /* SENavigationController.m */; };
+		2AF77BA51F03C44800FF873C /* SEDiaryListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AF77BA31F03C44800FF873C /* SEDiaryListTableViewCell.xib */; };
 		2AF8D2681EDECBCC00CF45C8 /* cloud.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D2671EDECBCC00CF45C8 /* cloud.gif */; };
 		2AF8D26A1EDECBD300CF45C8 /* Cloud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D2691EDECBD300CF45C8 /* Cloud.mp3 */; };
 		2AF8D26C1EDECBE700CF45C8 /* Nature.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D26B1EDECBE700CF45C8 /* Nature.gif */; };
@@ -68,7 +128,6 @@
 		2AF8D27B1EDECC2F00CF45C8 /* metal ring.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D2791EDECC2F00CF45C8 /* metal ring.wav */; };
 		2AF8D27C1EDECC2F00CF45C8 /* Metal_bell3times.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D27A1EDECC2F00CF45C8 /* Metal_bell3times.mp3 */; };
 		2AF8D27F1EDED0DF00CF45C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8D27D1EDED0DF00CF45C8 /* Main.storyboard */; };
-		2AF8D2821EDED15E00CF45C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8D2811EDED15D00CF45C8 /* ViewController.m */; };
 		9D2B5EAD206D745A3D536FFB /* libPods-SitEnjoy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E00FA2902E81BD89A25023A0 /* libPods-SitEnjoy.a */; };
 /* End PBXBuildFile section */
 
@@ -99,10 +158,23 @@
 		2A3ECFB21ED98DBD00C130AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A3ECFB71ED98DBD00C130AF /* SitEnjoyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SitEnjoyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3ECFBB1ED98DBD00C130AF /* SitEnjoyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SitEnjoyTests.m; sourceTree = "<group>"; };
-		2A3ECFBD1ED98DBD00C130AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A3ECFC21ED98DBD00C130AF /* SitEnjoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SitEnjoyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3ECFC61ED98DBD00C130AF /* SitEnjoyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SitEnjoyUITests.m; sourceTree = "<group>"; };
 		2A3ECFC81ED98DBD00C130AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5050111F04A0A600596200 /* Kaiti-SC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kaiti-SC-Bold.ttf"; sourceTree = "<group>"; };
+		2A5050121F04A0A600596200 /* Kaiti-SC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kaiti-SC-Regular.ttf"; sourceTree = "<group>"; };
+		2A5050151F04DA8E00596200 /* lantinghei.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lantinghei.ttf; sourceTree = "<group>"; };
+		2A55F6D81F04EFD100F68D01 /* SEDiaryListHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEDiaryListHeaderCell.h; sourceTree = "<group>"; };
+		2A55F6D91F04EFD100F68D01 /* SEDiaryListHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEDiaryListHeaderCell.m; sourceTree = "<group>"; };
+		2A55F6DA1F04EFD100F68D01 /* SEDiaryListHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEDiaryListHeaderCell.xib; sourceTree = "<group>"; };
+		2A55F6DD1F04F3D700F68D01 /* SEDiaryListHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEDiaryListHeader.h; sourceTree = "<group>"; };
+		2A55F6DE1F04F3D700F68D01 /* SEDiaryListHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEDiaryListHeader.m; sourceTree = "<group>"; };
+		2A55F6E01F04F3EF00F68D01 /* SEDiaryListHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEDiaryListHeader.xib; sourceTree = "<group>"; };
+		2A55F6E31F0502EE00F68D01 /* DiaryListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryListModel.h; sourceTree = "<group>"; };
+		2A55F6E41F0502EE00F68D01 /* DiaryListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryListModel.m; sourceTree = "<group>"; };
+		2A55F6E61F05117200F68D01 /* SEWriteDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEWriteDiaryViewController.h; sourceTree = "<group>"; };
+		2A55F6E71F05117300F68D01 /* SEWriteDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEWriteDiaryViewController.m; sourceTree = "<group>"; };
+		2A55F6E81F05117300F68D01 /* SEWriteDiaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEWriteDiaryViewController.xib; sourceTree = "<group>"; };
 		2A68DE951EE8331D00ECC730 /* 01 为什么用坐享这个词.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 为什么用坐享这个词.mp3"; sourceTree = "<group>"; };
 		2A68DE961EE8331D00ECC730 /* 02 什么是元认知能力.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 什么是元认知能力.mp3"; sourceTree = "<group>"; };
 		2A68DE971EE8331D00ECC730 /* 03 如何开始坐享.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 如何开始坐享.mp3"; sourceTree = "<group>"; };
@@ -176,6 +248,11 @@
 		2AD96B941EDEA61C00D33D2B /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
 		2AD96B951EDEA61C00D33D2B /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
 		2AD96B971EDEA64B00D33D2B /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
+		2AF77B9D1F03BEDD00FF873C /* SEDiaryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEDiaryListViewController.h; sourceTree = "<group>"; };
+		2AF77B9E1F03BEDD00FF873C /* SEDiaryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEDiaryListViewController.m; sourceTree = "<group>"; };
+		2AF77BA11F03C44800FF873C /* SEDiaryListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEDiaryListTableViewCell.h; sourceTree = "<group>"; };
+		2AF77BA21F03C44800FF873C /* SEDiaryListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEDiaryListTableViewCell.m; sourceTree = "<group>"; };
+		2AF77BA31F03C44800FF873C /* SEDiaryListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEDiaryListTableViewCell.xib; sourceTree = "<group>"; };
 		2AF8D2631EDEC91500CF45C8 /* SENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENavigationController.h; sourceTree = "<group>"; };
 		2AF8D2641EDEC91500CF45C8 /* SENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENavigationController.m; sourceTree = "<group>"; };
 		2AF8D2671EDECBCC00CF45C8 /* cloud.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cloud.gif; sourceTree = "<group>"; };
@@ -286,7 +363,6 @@
 			isa = PBXGroup;
 			children = (
 				2A3ECFBB1ED98DBD00C130AF /* SitEnjoyTests.m */,
-				2A3ECFBD1ED98DBD00C130AF /* Info.plist */,
 			);
 			path = SitEnjoyTests;
 			sourceTree = "<group>";
@@ -300,9 +376,29 @@
 			path = SitEnjoyUITests;
 			sourceTree = "<group>";
 		};
+		2A5050101F04A04B00596200 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2A5050151F04DA8E00596200 /* lantinghei.ttf */,
+				2A5050111F04A0A600596200 /* Kaiti-SC-Bold.ttf */,
+				2A5050121F04A0A600596200 /* Kaiti-SC-Regular.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		2A55F6E21F0502C900F68D01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A55F6E31F0502EE00F68D01 /* DiaryListModel.h */,
+				2A55F6E41F0502EE00F68D01 /* DiaryListModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		2A68DE941EE8330800ECC730 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2A5050101F04A04B00596200 /* Font */,
 				2A68DEA11EE8336700ECC730 /* 1770040300_2031329_l.mp3 */,
 				2A68DEA21EE8336700ECC730 /* 1770059653_2050944_l.mp3 */,
 				2A68DEA31EE8336700ECC730 /* 1771694697_4194836_l.mp3 */,
@@ -512,6 +608,13 @@
 		2AD96B641ED9934E00D33D2B /* Dairy-日记 */ = {
 			isa = PBXGroup;
 			children = (
+				2A55F6E21F0502C900F68D01 /* Model */,
+				2AF77BA01F03C42C00FF873C /* View */,
+				2AF77B9D1F03BEDD00FF873C /* SEDiaryListViewController.h */,
+				2AF77B9E1F03BEDD00FF873C /* SEDiaryListViewController.m */,
+				2A55F6E61F05117200F68D01 /* SEWriteDiaryViewController.h */,
+				2A55F6E71F05117300F68D01 /* SEWriteDiaryViewController.m */,
+				2A55F6E81F05117300F68D01 /* SEWriteDiaryViewController.xib */,
 			);
 			name = "Dairy-日记";
 			sourceTree = "<group>";
@@ -575,6 +678,22 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		2AF77BA01F03C42C00FF873C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AF77BA11F03C44800FF873C /* SEDiaryListTableViewCell.h */,
+				2AF77BA21F03C44800FF873C /* SEDiaryListTableViewCell.m */,
+				2AF77BA31F03C44800FF873C /* SEDiaryListTableViewCell.xib */,
+				2A55F6D81F04EFD100F68D01 /* SEDiaryListHeaderCell.h */,
+				2A55F6DD1F04F3D700F68D01 /* SEDiaryListHeader.h */,
+				2A55F6DE1F04F3D700F68D01 /* SEDiaryListHeader.m */,
+				2A55F6E01F04F3EF00F68D01 /* SEDiaryListHeader.xib */,
+				2A55F6D91F04EFD100F68D01 /* SEDiaryListHeaderCell.m */,
+				2A55F6DA1F04EFD100F68D01 /* SEDiaryListHeaderCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		2AF8D2661EDECBC300CF45C8 /* gif */ = {
 			isa = PBXGroup;
 			children = (
@@ -609,11 +728,11 @@
 			buildConfigurationList = 2A3ECFCB1ED98DBD00C130AF /* Build configuration list for PBXNativeTarget "SitEnjoy" */;
 			buildPhases = (
 				24316BC2AC05D261ADD4E531 /* [CP] Check Pods Manifest.lock */,
-				2A3ECF9A1ED98DBC00C130AF /* Sources */,
 				2A3ECF9B1ED98DBC00C130AF /* Frameworks */,
 				2A3ECF9C1ED98DBC00C130AF /* Resources */,
 				C24C1DB70DA8BD71FFCBB651 /* [CP] Embed Pods Frameworks */,
 				D34EF57CDD31D0CFADBCFF7E /* [CP] Copy Pods Resources */,
+				2A2A57291F062EB000CB4C69 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -713,11 +832,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A55F6EA1F05117300F68D01 /* SEWriteDiaryViewController.xib in Resources */,
+				2A55F6DC1F04EFD100F68D01 /* SEDiaryListHeaderCell.xib in Resources */,
+				2A5050161F04DAF100596200 /* lantinghei.ttf in Resources */,
+				2A5050131F04A3E700596200 /* Kaiti-SC-Bold.ttf in Resources */,
+				2A5050141F04A3E700596200 /* Kaiti-SC-Regular.ttf in Resources */,
 				2A68DEBC1EE8340B00ECC730 /* Music.storyboard in Resources */,
 				2AF8D2761EDECC0C00CF45C8 /* Silent.png in Resources */,
 				2AF8D2681EDECBCC00CF45C8 /* cloud.gif in Resources */,
 				2A68DEA41EE8336700ECC730 /* 1770040300_2031329_l.mp3 in Resources */,
 				2A68DE9A1EE8331D00ECC730 /* 01 为什么用坐享这个词.mp3 in Resources */,
+				2A55F6E11F04F3EF00F68D01 /* SEDiaryListHeader.xib in Resources */,
 				2A68DE9E1EE8331D00ECC730 /* 05 海声.mp3 in Resources */,
 				2AF8D2721EDECC0000CF45C8 /* wood ring.wav in Resources */,
 				2A3ECFB11ED98DBD00C130AF /* LaunchScreen.storyboard in Resources */,
@@ -730,6 +855,7 @@
 				2AF8D26A1EDECBD300CF45C8 /* Cloud.mp3 in Resources */,
 				2AF8D27C1EDECC2F00CF45C8 /* Metal_bell3times.mp3 in Resources */,
 				2AD96B981EDEA64B00D33D2B /* BottomView.xib in Resources */,
+				2AF77BA51F03C44800FF873C /* SEDiaryListTableViewCell.xib in Resources */,
 				2A68DEA61EE8336700ECC730 /* 1771694697_4194836_l.mp3 in Resources */,
 				2AD96B851EDE723200D33D2B /* SEMainViewController.xib in Resources */,
 				2A68DE9C1EE8331D00ECC730 /* 03 如何开始坐享.mp3 in Resources */,
@@ -808,43 +934,95 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A3ECF9A1ED98DBC00C130AF /* Sources */ = {
+		2A2A57291F062EB000CB4C69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A68DEDB1EE834A300ECC730 /* GVUserDefaults+Properties.m in Sources */,
-				2A68DEC91EE8341900ECC730 /* MusicViewController.m in Sources */,
-				2AF8D2821EDED15E00CF45C8 /* ViewController.m in Sources */,
-				2A68DED71EE8346200ECC730 /* NAKPlaybackIndicatorView.m in Sources */,
-				2A68DEE11EE834BB00ECC730 /* BaseHelper.m in Sources */,
-				2A68DEE61EE834CD00ECC730 /* UIView+Animations.m in Sources */,
-				2A68DEAE1EE833E400ECC730 /* BaseEntity.m in Sources */,
-				2AD96B841EDE723200D33D2B /* SEMainViewController.m in Sources */,
-				2AD96B881EDE849200D33D2B /* SEMusicViewController.m in Sources */,
-				2A3ECFA61ED98DBD00C130AF /* AppDelegate.m in Sources */,
-				2AD96B7B1ED9947300D33D2B /* NSString+XMGExtension.m in Sources */,
-				2AD96B7C1ED9947300D33D2B /* UIBarButtonItem+XMGExtension.m in Sources */,
-				2A68DECB1EE8341900ECC730 /* MusicListViewController.m in Sources */,
-				2A68DED61EE8346200ECC730 /* NAKPlaybackIndicatorContentView.m in Sources */,
-				2A68DEEA1EE834D100ECC730 /* NSString+Additions.m in Sources */,
-				2AD96B8F1EDEA44A00D33D2B /* XMGTabBarController.m in Sources */,
-				2AD96B961EDEA61C00D33D2B /* BottomView.m in Sources */,
-				2A3ECFA31ED98DBD00C130AF /* main.m in Sources */,
-				2A68DEC01EE8340B00ECC730 /* MusicListCell.m in Sources */,
-				2AD96B7E1ED9947300D33D2B /* UIImageView+XMGExtension.m in Sources */,
-				2AD96B7F1ED9947300D33D2B /* UITextField+XMGExtension.m in Sources */,
-				2AD96B8E1EDEA44A00D33D2B /* XMGTabBar.m in Sources */,
-				2A68DEE21EE834BB00ECC730 /* MusicHandler.m in Sources */,
-				2AD96B801ED9947300D33D2B /* UIView+XMGExtension.m in Sources */,
-				2A68DEBE1EE8340B00ECC730 /* MusicSlider.m in Sources */,
-				2A68DEB01EE833E400ECC730 /* MusicListEntity.m in Sources */,
-				2AF8D2651EDEC91500CF45C8 /* SENavigationController.m in Sources */,
-				2AD96B921EDEA4BD00D33D2B /* SEMeViewController.m in Sources */,
-				2A68DED51EE8346200ECC730 /* Track.m in Sources */,
-				2A68DEAF1EE833E400ECC730 /* MusicEntity.m in Sources */,
-				2A68DEBD1EE8340B00ECC730 /* MusicIndicator.m in Sources */,
-				2AD96B7D1ED9947300D33D2B /* UIImage+XMGExtension.m in Sources */,
-				2AD96B791ED9947300D33D2B /* NSCalendar+XMGExtension.m in Sources */,
+				2A2A572A1F0631EA00CB4C69 /* DiaryListModel.h in Sources */,
+				2A2A572B1F0631EA00CB4C69 /* DiaryListModel.m in Sources */,
+				2A2A572C1F0631EA00CB4C69 /* SEDiaryListTableViewCell.h in Sources */,
+				2A2A572D1F0631EA00CB4C69 /* SEDiaryListTableViewCell.m in Sources */,
+				2A2A572E1F0631EA00CB4C69 /* SEDiaryListTableViewCell.xib in Sources */,
+				2A2A572F1F0631EA00CB4C69 /* SEDiaryListHeaderCell.h in Sources */,
+				2A2A57301F0631EA00CB4C69 /* SEDiaryListHeader.h in Sources */,
+				2A2A57311F0631EA00CB4C69 /* SEDiaryListHeader.m in Sources */,
+				2A2A57321F0631EA00CB4C69 /* SEDiaryListHeader.xib in Sources */,
+				2A2A57331F0631EA00CB4C69 /* SEDiaryListHeaderCell.m in Sources */,
+				2A2A57341F0631EA00CB4C69 /* SEDiaryListHeaderCell.xib in Sources */,
+				2A2A57351F0631EA00CB4C69 /* SEDiaryListViewController.h in Sources */,
+				2A2A57361F0631EA00CB4C69 /* SEDiaryListViewController.m in Sources */,
+				2A2A57371F0631EA00CB4C69 /* SEWriteDiaryViewController.h in Sources */,
+				2A2A57381F0631EA00CB4C69 /* SEWriteDiaryViewController.m in Sources */,
+				2A2A57391F0631EA00CB4C69 /* SEWriteDiaryViewController.xib in Sources */,
+				2A2A573A1F0631EA00CB4C69 /* SEMeViewController.h in Sources */,
+				2A2A573B1F0631EA00CB4C69 /* SEMeViewController.m in Sources */,
+				2A2A573C1F0631EA00CB4C69 /* MusicViewController.h in Sources */,
+				2A2A573D1F0631EA00CB4C69 /* MusicViewController.m in Sources */,
+				2A2A573F1F0631EA00CB4C69 /* MusicListViewController.h in Sources */,
+				2A2A57401F0631EA00CB4C69 /* MusicListViewController.m in Sources */,
+				2A2A57421F0631EA00CB4C69 /* MusicIndicator.h in Sources */,
+				2A2A57431F0631EA00CB4C69 /* MusicIndicator.m in Sources */,
+				2A2A57441F0631EA00CB4C69 /* MusicSlider.h in Sources */,
+				2A2A57451F0631EA00CB4C69 /* MusicSlider.m in Sources */,
+				2A2A57471F0631EA00CB4C69 /* MusicListCell.h in Sources */,
+				2A2A57481F0631EA00CB4C69 /* MusicListCell.m in Sources */,
+				2A2A57491F0631EA00CB4C69 /* BaseEntity.h in Sources */,
+				2A2A574A1F0631EA00CB4C69 /* BaseEntity.m in Sources */,
+				2A2A574B1F0631EA00CB4C69 /* MusicEntity.h in Sources */,
+				2A2A574C1F0631EA00CB4C69 /* MusicEntity.m in Sources */,
+				2A2A574D1F0631EA00CB4C69 /* MusicListEntity.h in Sources */,
+				2A2A574E1F0631EA00CB4C69 /* MusicListEntity.m in Sources */,
+				2A2A574F1F0631EA00CB4C69 /* SEMusicViewController.h in Sources */,
+				2A2A57501F0631EA00CB4C69 /* SEMusicViewController.m in Sources */,
+				2A2A57511F0631EA00CB4C69 /* BottomView.h in Sources */,
+				2A2A57521F0631EA00CB4C69 /* BottomView.m in Sources */,
+				2A2A57531F0631EA00CB4C69 /* BottomView.xib in Sources */,
+				2A2A57541F0631EA00CB4C69 /* SEMainViewController.h in Sources */,
+				2A2A57551F0631EA00CB4C69 /* SEMainViewController.m in Sources */,
+				2A2A57561F0631EA00CB4C69 /* SEMainViewController.xib in Sources */,
+				2A2A57571F0631EA00CB4C69 /* UIConstant.h in Sources */,
+				2A2A57581F0631EA00CB4C69 /* BaseHelper.h in Sources */,
+				2A2A57591F0631EA00CB4C69 /* BaseHelper.m in Sources */,
+				2A2A575A1F0631EA00CB4C69 /* MusicHandler.h in Sources */,
+				2A2A575B1F0631EA00CB4C69 /* MusicHandler.m in Sources */,
+				2A2A575C1F0631EA00CB4C69 /* Track.h in Sources */,
+				2A2A575D1F0631EA00CB4C69 /* Track.m in Sources */,
+				2A2A575E1F0631EA00CB4C69 /* NAKPlaybackIndicatorContentView.h in Sources */,
+				2A2A575F1F0631EA00CB4C69 /* NAKPlaybackIndicatorContentView.m in Sources */,
+				2A2A57601F0631EA00CB4C69 /* NAKPlaybackIndicatorView.h in Sources */,
+				2A2A57611F0631EA00CB4C69 /* NAKPlaybackIndicatorView.m in Sources */,
+				2A2A57621F0631EA00CB4C69 /* XMGTabBar.h in Sources */,
+				2A2A57631F0631EA00CB4C69 /* XMGTabBar.m in Sources */,
+				2A2A57641F0631EA00CB4C69 /* XMGTabBarController.h in Sources */,
+				2A2A57651F0631EA00CB4C69 /* XMGTabBarController.m in Sources */,
+				2A2A57661F0631EA00CB4C69 /* SENavigationController.h in Sources */,
+				2A2A57671F0631EA00CB4C69 /* SENavigationController.m in Sources */,
+				2A2A57681F0631EA00CB4C69 /* NSString+Additions.h in Sources */,
+				2A2A57691F0631EA00CB4C69 /* NSString+Additions.m in Sources */,
+				2A2A576A1F0631EA00CB4C69 /* UIView+Animations.h in Sources */,
+				2A2A576B1F0631EA00CB4C69 /* UIView+Animations.m in Sources */,
+				2A2A576C1F0631EA00CB4C69 /* GVUserDefaults+Properties.h in Sources */,
+				2A2A576D1F0631EA00CB4C69 /* GVUserDefaults+Properties.m in Sources */,
+				2A2A576E1F0631EA00CB4C69 /* NSCalendar+XMGExtension.h in Sources */,
+				2A2A576F1F0631EA00CB4C69 /* NSCalendar+XMGExtension.m in Sources */,
+				2A2A57701F0631EA00CB4C69 /* NSString+XMGExtension.h in Sources */,
+				2A2A57711F0631EA00CB4C69 /* NSString+XMGExtension.m in Sources */,
+				2A2A57721F0631EA00CB4C69 /* UIBarButtonItem+XMGExtension.h in Sources */,
+				2A2A57731F0631EA00CB4C69 /* UIBarButtonItem+XMGExtension.m in Sources */,
+				2A2A57741F0631EA00CB4C69 /* UIImage+XMGExtension.h in Sources */,
+				2A2A57751F0631EA00CB4C69 /* UIImage+XMGExtension.m in Sources */,
+				2A2A57761F0631EA00CB4C69 /* UIImageView+XMGExtension.h in Sources */,
+				2A2A57771F0631EA00CB4C69 /* UIImageView+XMGExtension.m in Sources */,
+				2A2A57781F0631EA00CB4C69 /* UITextField+XMGExtension.h in Sources */,
+				2A2A57791F0631EA00CB4C69 /* UITextField+XMGExtension.m in Sources */,
+				2A2A577A1F0631EA00CB4C69 /* UIView+XMGExtension.h in Sources */,
+				2A2A577B1F0631EA00CB4C69 /* UIView+XMGExtension.m in Sources */,
+				2A2A577C1F0631EA00CB4C69 /* AppDelegate.h in Sources */,
+				2A2A577D1F0631EA00CB4C69 /* AppDelegate.m in Sources */,
+				2A2A577E1F0631EA00CB4C69 /* ViewController.h in Sources */,
+				2A2A577F1F0631EA00CB4C69 /* ViewController.m in Sources */,
+				2A2A578D1F0631EA00CB4C69 /* main.m in Sources */,
+				2A2A578E1F0631EA00CB4C69 /* Enesco-Prefix.pch in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -994,9 +1172,12 @@
 			baseConfigurationReference = 3C95498931D6D524D02F7734 /* Pods-SitEnjoy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = RLW446F9SR;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SitEnjoy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = wupei.SitEnjoy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1007,9 +1188,12 @@
 			baseConfigurationReference = 4ECE98101CC2D451E5D19B8A /* Pods-SitEnjoy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = RLW446F9SR;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SitEnjoy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = wupei.SitEnjoy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

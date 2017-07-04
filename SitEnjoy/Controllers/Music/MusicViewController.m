@@ -72,12 +72,19 @@ static void *kBufferingRatioKVOKey = &kBufferingRatioKVOKey;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [self adapterIphone4];
+    
     _musicDurationTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateSliderValue:) userInfo:nil repeats:YES];
     _currentIndex = 0;
     _musicIndicator = [MusicIndicator sharedInstance];
     _originArray = @[].mutableCopy;
     _randomArray = [[NSMutableArray alloc] initWithCapacity:0];
+    
+    UIButton *leftBtn = [[UIButton alloc] initWithFrame:CGRectMake(20, 20, 50, 30)];
+    
+    [leftBtn setImage:[UIImage imageNamed:@"arrow_down"] forState:UIControlStateNormal];
+    
     [self addPanRecognizer];
 }
 

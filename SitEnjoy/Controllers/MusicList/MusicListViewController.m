@@ -12,6 +12,7 @@
 #import "MusicIndicator.h"
 #import "MBProgressHUD.h"
 
+#import "UIBarButtonItem+XMGExtension.h"
 
 
 @interface MusicListViewController () <MusicViewControllerDelegate, MusicListCellDelegate>
@@ -25,13 +26,13 @@ static NSString * const musicListCell = @"musicListCell";
 
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
-//    [self.tableView registerClass:[MusicListCell class] forCellReuseIdentifier:@"musicListCell"];
-
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
-
-    self.navigationItem.title = @"笑来语录";
+    
+    [self setupNav];
+    
     [self headerRefreshing];
 }
 
@@ -39,6 +40,22 @@ static NSString * const musicListCell = @"musicListCell";
     [super viewWillAppear:animated];
     [self createIndicatorView];
 }
+
+- (void)setupNav {
+    
+    self.navigationItem.title = @"笑来语录";
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"Btn_Back_34x34_" highImage:@"Btn_Back_34x34_" target:self action:@selector(goback)];
+    
+//    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImage:@"Btn_AddNew_34x34_" highImage:@"Btn_AddNew_34x34_" target:self action:@selector(goToWrite)];
+}
+
+- (void)goback {
+    [self dismissViewControllerAnimated:YES completion:^{
+        NSLog(@"返回主页");
+    }];
+}
+
 
 # pragma mark - Custom right bar button item
 
@@ -59,6 +76,8 @@ static NSString * const musicListCell = @"musicListCell";
     UITapGestureRecognizer *tapInditator = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapIndicator)];
     tapInditator.numberOfTapsRequired = 1;
     [indicator addGestureRecognizer:tapInditator];
+    
+    
 }
 
 - (void)handleTapIndicator {
